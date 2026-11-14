@@ -1,0 +1,385 @@
+{
+  "fantasy_armor:golden_horns_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 16,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "modify": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.15,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "modify": 0.1,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "fantasy_armor:golden_horns_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 24,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "modify": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.15,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "modify": 0.1,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "fantasy_armor:golden_horns_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 20,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "modify": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.15,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "modify": 0.1,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "fantasy_armor:golden_horns_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 16,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "modify": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.15,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "modify": 0.1,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "fantasy_armor:dragonslayer_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 22,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 8,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "modify": 100,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "l2hostility:extra_difficulty",
+      "modify": 5,
+      "operation": "ADDITION"
+    }
+  ],
+  "fantasy_armor:dragonslayer_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 30,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 8,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "modify": 100,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "l2hostility:extra_difficulty",
+      "modify": 5,
+      "operation": "ADDITION"
+    }
+  ],
+  "fantasy_armor:dragonslayer_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 26,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 8,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "modify": 100,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "l2hostility:extra_difficulty",
+      "modify": 5,
+      "operation": "ADDITION"
+    }
+  ],
+  "fantasy_armor:dragonslayer_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 22,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 8,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "modify": 100,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "l2hostility:extra_difficulty",
+      "modify": 5,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": 0.05,
+      "operation": "ADDITION"
+    }
+  ],
+  "fantasy_armor:eclipse_soldier_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 28,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 10,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "modify": 200,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "l2hostility:extra_difficulty",
+      "modify": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "fantasy_armor:eclipse_soldier_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 36,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 10,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "modify": 200,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "l2hostility:extra_difficulty",
+      "modify": 10,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 50,
+      "operation": "ADDITION"
+    }
+  ],
+  "fantasy_armor:eclipse_soldier_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 32,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 10,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "modify": 200,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "l2hostility:extra_difficulty",
+      "modify": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "fantasy_armor:eclipse_soldier_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 28,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 10,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "modify": 200,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "l2hostility:extra_difficulty",
+      "modify": 10,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": 0.05,
+      "operation": "ADDITION"
+    }
+  ]
+}

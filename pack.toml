@@ -1,0 +1,16 @@
+name = "kenma-reconstructed"
+author = "ryuma-1"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "78d8a80d31b56dd7c578e6a66f1c81cd4cf0d53bc9e580d9d75b72ac0bd48876"
+
+[versions]
+forge = "47.4.28"
+minecraft = "1.20.1"
+
+[options]
+datapack-folder = "config/openloader/data"

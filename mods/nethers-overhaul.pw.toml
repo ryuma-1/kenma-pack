@@ -1,0 +1,14 @@
+name = "Nether's Overhaul"
+filename = "Nether's Overhaul-1.20.1_V1.3.6.jar"
+side = "both"
+pin = true
+
+[download]
+hash-format = "sha1"
+hash = "344e2ac5ca57212161d89a4dd9b7000e0d0ae525"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5152459
+project-id = 913476

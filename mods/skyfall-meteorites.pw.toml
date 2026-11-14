@@ -1,0 +1,13 @@
+name = "Skyfall: Meteorites"
+filename = "skyfall-3.0.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GmEUIIJJ/versions/ZcNuunYz/skyfall-3.0.0-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "f812057051c0d0970722cf6d07bc2c8b475d2e6a2372fc95b1e3cb78de8b35bdb0d0bdae118cd7c38d998a47249835d3a908c508d76b871c428d107c1d0cbe73"
+
+[update]
+[update.modrinth]
+mod-id = "GmEUIIJJ"
+version = "ZcNuunYz"

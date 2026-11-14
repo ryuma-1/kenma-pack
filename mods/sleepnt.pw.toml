@@ -1,0 +1,13 @@
+name = "Sleepn't"
+filename = "sleepnt-1.0.0-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gRSUfdJa/versions/jGlf8uoF/sleepnt-1.0.0-1.20.1.jar"
+hash-format = "sha512"
+hash = "27cc21a28794bd37d23af90e85db11380ecfda27195f889f1e8a5064ed2a2af54f12599ccee212b7dc004224efa32f9e8fa86f2a0c6dacca68295a033150d8a9"
+
+[update]
+[update.modrinth]
+mod-id = "gRSUfdJa"
+version = "jGlf8uoF"

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#kenma:deep_waters",
+  "features": [
+    "kenma:holy_iron_ore",
+    "kenma:holy_iron_ore_large",
+    "kenma:holy_iron_ore_buried"
+  ],
+  "step": "underground_ores"
+}

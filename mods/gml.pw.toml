@@ -1,0 +1,14 @@
+name = "GroovyModLoader (GML)"
+filename = "gml-4.0.9-all.jar"
+side = "both"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/zg2tT2Vu/versions/qmwY0rKE/gml-4.0.9-all.jar"
+hash-format = "sha512"
+hash = "1ccfadd444fd75b8bd3c83eaac9e499e054cac1e824731109b5bf4bb3e50298cd5d9b977faf1a22fa89598372b53339639d060cb7b31091e12904629eefe97fb"
+
+[update]
+[update.modrinth]
+mod-id = "zg2tT2Vu"
+version = "qmwY0rKE"

@@ -1,0 +1,13 @@
+name = "Auto HUD"
+filename = "autohud-8.14+1.20.1-forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/temczoTQ/versions/5KjACox5/autohud-8.14%2B1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "daecbe964323437f3ad6397fa4da4dbef1363fcf9e3b7703cdaade3350d42c75219478427aa8b71c639b65043fefcbc63644483288a545955752888522ee8bb9"
+
+[update]
+[update.modrinth]
+mod-id = "temczoTQ"
+version = "5KjACox5"

@@ -1,0 +1,14 @@
+name = "Global Block Hardness"
+filename = "globalblockhardness-1.19.4-1.0.0.jar"
+side = "both"
+pin = true
+
+[download]
+hash-format = "sha1"
+hash = "0a65f6fd491857db3938559c5793bb04cd3b26e3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4461653
+project-id = 557092

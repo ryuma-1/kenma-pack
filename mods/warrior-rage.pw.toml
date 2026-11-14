@@ -1,0 +1,13 @@
+name = "Warrior Rage"
+filename = "warriorrage-forge-1.20.1-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1BGsoydA/versions/GWBSFwtZ/warriorrage-forge-1.20.1-1.0.5.jar"
+hash-format = "sha512"
+hash = "a41c7f4fda20dab7f2737e1083a9d7dbcf408fc84ff693d4250a568a5ef278e68a99b6fa97c954f1573569b5a6b73953b8474682491a5e2357197a727d2b2a7d"
+
+[update]
+[update.modrinth]
+mod-id = "1BGsoydA"
+version = "GWBSFwtZ"

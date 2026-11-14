@@ -1,0 +1,13 @@
+name = "Better Forests"
+filename = "betterforests-0.5.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b84b3882e23fda72ca316bf9e7ad06ca1603a869"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5632543
+project-id = 1023367

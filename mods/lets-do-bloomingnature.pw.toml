@@ -1,0 +1,14 @@
+name = "[Let's Do] BloomingNature"
+filename = "letsdo-bloomingnature-forge-1.0.7.jar"
+side = "both"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/4Vno77MY/versions/ulJwe1H2/letsdo-bloomingnature-forge-1.0.7.jar"
+hash-format = "sha512"
+hash = "c3e96bdcca14949673d52dc19fc2da189c98a37fd89d70f4631f52ae11ba08c6cb6ca9b6bbb4fc28ce81f2ec4ddcc02ce7b9592a1e6f83785dae1820ea6371e5"
+
+[update]
+[update.modrinth]
+mod-id = "4Vno77MY"
+version = "ulJwe1H2"

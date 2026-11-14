@@ -1,0 +1,22 @@
+# Iron's Spells のサーバー設定の既定値（新しいワールドを作るときに serverconfig へ写される）。
+# ここに書いた項目だけ既定から変える。書いていない項目は Iron's Spells の既定値になる。
+# 既にあるワールドには効かないので、そのワールドの serverconfig/irons_spellbooks-server.toml を直接直す。
+
+[Spells]
+
+	# 星降りの聖職者（#54）の聖の魔法「ホーリーレイ」。作中では「クールタイムが存在しない単体攻撃魔法」なので 0 にする。
+	[Spells."peyroscythe:nero_holy_ray"]
+		CooldownInSeconds = 0.0
+
+	# PeyroScythe の The Frozen World は無効にする（2026-11-12、利用者と決定。#77）。
+	# Iron's Spells 3.4.0.4 にない音（SoundRegistry.ICE_SPIKE_EMERGE）を使っていて、唱えるとサーバーが落ちる。
+	# 唱えた人のデータに「唱えている途中」が残り、直すまでその人がログインできなくなる。
+	[Spells."peyroscythe:the_frozen_world"]
+		Enabled = false
+
+	# PeyroScythe の Black Fireball of Chaos も無効にする（2026-11-13、利用者と決定。#77）。
+	# ためて撃つ呪文（LONG）なので、唱え始めにクライアントが詠唱の動き（getCastStartAnimation）を読む。
+	# その動き（SpellAnimations.ANIMATION_CONTINUOUS_CAST_ONE_HANDED）が Iron's Spells 3.4.0.4 になく、クライアントが落ちる見込み。
+	# どの継承者の報酬でもない。同じ動きを使うホーリーレイは、すぐ発動する呪文（INSTANT）で動きを読まないので落ちない。
+	[Spells."peyroscythe:black_fireball"]
+		Enabled = false

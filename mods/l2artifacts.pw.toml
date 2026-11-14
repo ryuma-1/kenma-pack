@@ -1,0 +1,14 @@
+name = "L2 Artifacts"
+filename = "l2artifacts-2.4.24.jar"
+side = "both"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/8RtpLoXH/versions/p2VSwEVl/l2artifacts-2.4.24.jar"
+hash-format = "sha512"
+hash = "a80144c2220be25ef0b83db6ab0c22a30f93e0545b6c94be3979966f869ac97b44f57717a5d5a6431d041b84ba7c29349f932f443dfcc30a40360cbf81168525"
+
+[update]
+[update.modrinth]
+mod-id = "8RtpLoXH"
+version = "p2VSwEVl"

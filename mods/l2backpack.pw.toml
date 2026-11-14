@@ -1,0 +1,14 @@
+name = "L2 Backpack"
+filename = "l2backpack-2.4.22.jar"
+side = "both"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/1qkL7Png/versions/whNPEimX/l2backpack-2.4.22.jar"
+hash-format = "sha512"
+hash = "8ca716c937d325f31cd69c1e89c92055633351077e2c65cf447d68df8eab8885f6e860808253e3f3cb2052b7eba56ccd1d0f0f3cd5e561a574f387e218783980"
+
+[update]
+[update.modrinth]
+mod-id = "1qkL7Png"
+version = "whNPEimX"

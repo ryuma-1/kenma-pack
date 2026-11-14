@@ -1,0 +1,14 @@
+name = "EarlyUpdate: Pale Garden"
+filename = "earlyupdate_pale_garden_final.jar"
+side = "both"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/QlOwIMC6/versions/GZw0QkC5/earlyupdate_pale_garden_final.jar"
+hash-format = "sha512"
+hash = "cfc45f89d508785149df91d2750cb03962138583027b1fb549f22a80e59d5553f2a26d5947bd8c57297f1b68cef0b10c56e0e0ec2e7c750b7a344deffc161632"
+
+[update]
+[update.modrinth]
+mod-id = "QlOwIMC6"
+version = "GZw0QkC5"

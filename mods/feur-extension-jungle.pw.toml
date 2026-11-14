@@ -1,0 +1,14 @@
+name = "Feur Extension Jungle"
+filename = "feur_extension_jungle-1.20.1-forge.jar"
+side = "both"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/Uzp5QboY/versions/xcFRYgvf/feur_extension_jungle-1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "e3c0c4435d78f1b3054c77d3f51dff07405dba386735bd058ae71f5be906c0cfa7f3348cf1e354ec2368e705a0da9fb57798165e2b6300a775ae9ad93f3a4ee5"
+
+[update]
+[update.modrinth]
+mod-id = "Uzp5QboY"
+version = "xcFRYgvf"

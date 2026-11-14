@@ -1,0 +1,13 @@
+name = "L2 Archery"
+filename = "l2archery-2.5.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6hD6YA2r/versions/nfRU7SvZ/l2archery-2.5.0.jar"
+hash-format = "sha512"
+hash = "4141d1c14024c95d7563a970e23bc9ffc4bbf206dbe7acdce17ce32be1b50c1a04f898214b644e6b44e79fac12c06369992da6b20a3c3abb267677614bc0af8a"
+
+[update]
+[update.modrinth]
+mod-id = "6hD6YA2r"
+version = "nfRU7SvZ"

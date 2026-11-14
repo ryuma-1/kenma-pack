@@ -1,0 +1,98 @@
+{
+  "fantasy_armor:hero_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 4,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "modify": 0.05,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "modify": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "fantasy_armor:hero_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 14,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 4,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "modify": 0.05,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "modify": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "fantasy_armor:hero_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 10,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 4,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "modify": 0.05,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "modify": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "fantasy_armor:hero_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 4,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "modify": 0.05,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "modify": 10,
+      "operation": "ADDITION"
+    }
+  ]
+}

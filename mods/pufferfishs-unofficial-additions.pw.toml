@@ -1,0 +1,14 @@
+name = "Pufferfish's Unofficial Additions"
+filename = "pufferfish_unofficial_additions-1.20.1-2.2.2-all.jar"
+side = "both"
+pin = true
+
+[download]
+hash-format = "sha1"
+hash = "f68606189cb0550bb3ba2bcd94c5c79fc94c8561"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5697828
+project-id = 935166

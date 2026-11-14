@@ -1,0 +1,14 @@
+name = "Keepers of the Stones II"
+filename = "Keepers-of-the-Stones-II-1.1.10.jar"
+side = "both"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/hKbKT6ME/versions/PoNGFYo2/Keepers-of-the-Stones-II-1.1.10.jar"
+hash-format = "sha512"
+hash = "09780389ec5a5ccde772429f9c55d73be753ea0bcfdd26b33977c342c35486440ac4de938da082ee03d7af0dd80925a6e933e3af1d2359b5b0eedf00b873fabd"
+
+[update]
+[update.modrinth]
+mod-id = "hKbKT6ME"
+version = "PoNGFYo2"

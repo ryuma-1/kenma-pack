@@ -1,0 +1,14 @@
+name = "L2 Weaponry"
+filename = "l2weaponry-2.4.30.jar"
+side = "both"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/7q7kOZix/versions/CSSGr95D/l2weaponry-2.4.30.jar"
+hash-format = "sha512"
+hash = "2e9f177bd0b940fc5c912215e9006f1f708b55b5a3626f558dfbb0bd3f0bb3ae3a99266e20af991b68a5cd44c37b49d961d0764d2060853adbf611d8e5c8d896"
+
+[update]
+[update.modrinth]
+mod-id = "7q7kOZix"
+version = "CSSGr95D"

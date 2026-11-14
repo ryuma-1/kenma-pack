@@ -1,0 +1,14 @@
+name = "Elliemore's Deep waters"
+filename = "deepwaters 1.20.1 25.3.jar"
+side = "both"
+pin = true
+
+[download]
+hash-format = "sha1"
+hash = "413dc3918ecdeafacd84d7cedcfec5c8df7b7121"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6559106
+project-id = 1204184

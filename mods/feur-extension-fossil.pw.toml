@@ -1,0 +1,14 @@
+name = "Feur Extension Fossil"
+filename = "feur_extension_fossil-1.20.1-forge.jar"
+side = "both"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/yGr5XHdT/versions/flNgX6Hq/feur_extension_fossil-1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "0672346c77c97f585d109eec1d1b715cbcc38a4d9187b1a0650e90a1e6f9d0e2161bb6b273f8df03c6969facef783083471141ee6dea829fc869a344064e94a9"
+
+[update]
+[update.modrinth]
+mod-id = "yGr5XHdT"
+version = "flNgX6Hq"

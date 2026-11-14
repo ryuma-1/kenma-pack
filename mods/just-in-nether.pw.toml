@@ -1,0 +1,14 @@
+name = "Just-In NETHER"
+filename = "just_in_nether-1.0.5-forge-1.20.1.jar"
+side = "both"
+pin = true
+
+[download]
+hash-format = "sha1"
+hash = "18069fab48a17f387dc0c88cbe98f01fc606982c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5664437
+project-id = 1074911

@@ -1,0 +1,14 @@
+name = "Weapon Master"
+filename = "weaponmaster-1.4.2-1.20.1.jar"
+side = "both"
+pin = true
+
+[download]
+hash-format = "sha1"
+hash = "bc39cd2c65a600dd9841c41ebc34d741450d2543"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4978495
+project-id = 782886

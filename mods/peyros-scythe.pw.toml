@@ -1,0 +1,14 @@
+name = "Peyro's Scythes & Spells"
+filename = "PeyroScythe-Forge-1.20.1-1.2.0.jar"
+side = "both"
+pin = true
+
+[download]
+hash-format = "sha1"
+hash = "29de51f5017d08e98541a238f18609031b67f99a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6941522
+project-id = 1327449

@@ -1,0 +1,686 @@
+{
+  "power:fire_armor_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 16,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:fire_armor_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 24,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:fire_armor_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 20,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:fire_armor_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 16,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:ice_armor_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 16,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:ice_armor_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 24,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:ice_armor_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 20,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:ice_armor_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 16,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:earth_armor_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 16,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:earth_armor_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 24,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:earth_armor_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 20,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:earth_armor_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 16,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:water_armor_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 16,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:water_armor_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 24,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:water_armor_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 20,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:water_armor_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 16,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:lightning_armor_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 16,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:lightning_armor_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 24,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:lightning_armor_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 20,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:lightning_armor_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 16,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:blood_armor_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 16,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:blood_armor_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 24,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:blood_armor_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 20,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:blood_armor_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 16,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:light_armor_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 16,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:light_armor_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 24,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:light_armor_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 20,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:light_armor_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 16,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:sand_armor_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 16,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:sand_armor_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 24,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:sand_armor_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 20,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:sand_armor_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 16,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:crystal_armor_helmet": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 16,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "2ad3f246-fee1-4e67-b886-69fd380bb150"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:crystal_armor_chestplate": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 24,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "9f3d476d-c118-4544-8365-64846904b48e"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:crystal_armor_leggings": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 20,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "d8499b04-0e66-4726-ab29-64469d734e0d"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "power:crystal_armor_boots": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 16,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "modify": 6,
+      "operation": "EQUALIZE",
+      "uuid": "845db27c-c624-495f-8c9f-6020a9a58b6b"
+    },
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}
