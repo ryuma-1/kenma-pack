@@ -9,6 +9,10 @@ file = "config/endrem.toml"
 hash = "3aa57ad35c356701c0dce40fcc975959ffdf94bdbafc800b8b1e76bce7ec3bb0"
 
 [[files]]
+file = "config/harderbranchmining-common.toml"
+hash = "3e5372c02773cecd40a45e38bbc88026f4196cb75c3750225328c9a493703f43"
+
+[[files]]
 file = "config/irons_spellbooks-client.toml"
 hash = "6cd87ffb6522c5930854ed7387bb2c433cf114c9cc607129033f5fb252ad3864"
 
