@@ -7,7 +7,7 @@
 // エンドの封印は End Remastered のポータル（違う封印石が12個要る）をそのまま使う（server_scripts/seal_stones.js）。
 // 異界は Call from the Depths の次元（古代都市に入り口がある。作中の「異界は古代都市に入り口がある」）。
 // 名前は client_scripts/exorcism.js、Forge のイベントで作るもの（退魔の法の魔族への倍率、クリスタルの軽減）は
-// startup_scripts/exorcism.js。強さの数値は仮（#4 でまとめて調整する）。
+// startup_scripts/exorcism.js。ボスの体力と攻撃の倍率は、等級で決める（server_scripts/grades.js）。
 
 // 作中の退魔の法の9つ（どれも既存のエンダー系の呪文）。
 const EXORCISM_STORY_SPELLS = [
@@ -26,16 +26,7 @@ const EXORCISM_EXTRA_SPELLS = [
 // 涙は server_scripts/boss_souls.js。ここでは、異界の鍵1個と、作中の退魔の法9つから3〜4枚の巻物を落とす。
 // 異界の鍵は Call from the Depths の Depths key（異界に入る鍵）。作れないようにして、竜からだけ手に入るようにする。
 // クリスタルによる軽減は startup_scripts/exorcism.js。
-const PROGENITOR_DRAGON_HEALTH = 1000 // バニラは 200（仮の値）
-
-EntityEvents.spawned('minecraft:ender_dragon', event => {
-  var dragon = event.entity
-  // 読み込み直したときは、もう上げてあるので何もしない（体力が戻らないように）。
-  // setMaxHealth は KubeJS の関数（最大体力の基本値を変える）。
-  if (dragon.getMaxHealth() >= PROGENITOR_DRAGON_HEALTH) return
-  dragon.setMaxHealth(PROGENITOR_DRAGON_HEALTH)
-  dragon.setHealth(PROGENITOR_DRAGON_HEALTH)
-})
+// 体力は、等級（第零）で決める（server_scripts/grades.js、kubejs/config/grades.json）。
 
 EntityEvents.death('minecraft:ender_dragon', event => {
   event.entity.block.popItem(Item.of('callfromthedepth_:depth'))
@@ -48,7 +39,7 @@ ServerEvents.recipes(event => {
 
 // ---- 退魔の巨像（Cataclysm の Ender Guardian） ----
 // エンドの外側の島の Ruined Citadel で、Altar of Void から呼び出す（Cataclysm のまま）。
-// 強さ、戦い方（テレポートと拳。jar の技の名前で確かめた）、ボスバー、落とし物は Cataclysm のまま。名前だけ変える。
+// 戦い方（テレポートと拳。jar の技の名前で確かめた）、ボスバー、落とし物は Cataclysm のまま。体力と攻撃の倍率は等級で決める（grades.js）。名前だけ変える。
 
 // ---- 退魔の剣士（Iron's Spells の The Dead King） ----
 // エンドの外側の島の Ruined Citadel（作中の「果ての荒野」）で呼び出す（server_scripts/structure_bases.js）。

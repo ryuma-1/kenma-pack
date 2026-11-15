@@ -2,7 +2,7 @@
 
 // 竜狩りの末裔（#62）。ボスは Cataclysm のスキュラ（cataclysm:scylla）を使う
 // （2026-11-13、利用者と決定。ボスは自作せず、既存の MOD のものを使う方針）。雷の槍と雷雨を使う。
-// 強さと戦い方は Cataclysm のまま（強さは #4 でまとめて調整する）。ボスバーは Cataclysm のもの、魂は server_scripts/boss_souls.js。
+// 戦い方は Cataclysm のまま。体力と攻撃の倍率は等級で決める（grades.js）。ボスバーは Cataclysm のもの、魂は server_scripts/boss_souls.js。
 // 拠点は Nordic Structures の巨大なバイキングの砦（雪の平原。作中の「北の集落」）。そこで呼び出したスキュラだけが
 // 竜狩りの末裔で、名前（entity.kenma.dragon_slayer）と目印のタグ kenma_heir が付く（server_scripts/structure_bases.js）。
 // Cataclysm の Acropolis（暖かい海の上空）にもとからいるスキュラは、名前も報酬ももとのまま（1つの拠点にだけ出す）。

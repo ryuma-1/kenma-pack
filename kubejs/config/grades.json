@@ -1,0 +1,37 @@
+{
+  "grades": {
+    "fourth": { "name": "第四等級", "health": 200, "damage": 1.0 },
+    "third": { "name": "第三等級", "health": 400, "damage": 1.25 },
+    "second": { "name": "第二等級", "health": 600, "damage": 1.5 },
+    "first": { "name": "第一等級", "health": 900, "damage": 2.0 },
+    "zero": { "name": "第零等級", "health": 1300, "damage": 2.5 },
+    "demon_lord": { "name": "？", "health": 2000, "damage": 3.0 }
+  },
+  "danger": {
+    "bossHealthScale": 0.5,
+    "bossDamageScale": 0.5
+  },
+  "bosses": [
+    { "entity": "kenma:earth_mage", "grade": "fourth", "note": "大地の魔術師" },
+    { "entity": "cataclysm:aptrgangr", "grade": "fourth", "heirOnly": true, "note": "淀みの剣士" },
+    { "entity": "cataclysm:wadjet", "grade": "fourth", "heirOnly": true, "note": "星降りの聖職者" },
+    { "entity": "just_in_nether:bullkindar", "grade": "fourth", "note": "ブルキンダー" },
+    { "entity": "just_in_nether:pigmar", "grade": "fourth", "note": "ピグマー" },
+    { "entity": "cataclysm:ignis", "grade": "third", "note": "半竜の乙女" },
+    { "entity": "cataclysm:the_leviathan", "grade": "third", "note": "魚人の英雄" },
+    { "entity": "cataclysm:the_harbinger", "grade": "third", "heirOnly": true, "note": "召喚の魔術師" },
+    { "entity": "deepwaters:cianea_capillada", "grade": "third", "note": "海の遺志（Man O' War）" },
+    { "entity": "dungeonnowloading:chaos_spawner", "grade": "third", "note": "カオススポナー" },
+    { "entity": "irons_spellbooks:cryomancer", "grade": "second", "heirOnly": true, "note": "氷の魔術師" },
+    { "entity": "power:energium_golem", "grade": "second", "note": "獣人の墓守" },
+    { "entity": "cataclysm:netherite_monstrosity", "grade": "second", "note": "煉獄の猟犬" },
+    { "entity": "cataclysm:ancient_remnant", "grade": "first", "note": "砂塵の魔術師" },
+    { "entity": "cataclysm:scylla", "grade": "first", "heirOnly": true, "note": "竜狩りの末裔" },
+    { "entity": "cataclysm:maledictus", "grade": "first", "heirOnly": true, "note": "帝国近衛騎士" },
+    { "entity": "minecraft:ender_dragon", "grade": "zero", "note": "始祖の竜" },
+    { "entity": "cataclysm:ender_guardian", "grade": "zero", "note": "退魔の巨像" },
+    { "entity": "irons_spellbooks:dead_king", "grade": "zero", "heirOnly": true, "note": "退魔の剣士" },
+    { "entity": "callfromthedepth_:deepdarkestspawn", "grade": "demon_lord", "note": "最後の魔王（第1形態）" },
+    { "entity": "callfromthedepth_:deepdarkestspwansecondphase", "grade": "demon_lord", "note": "最後の魔王（第2形態）" }
+  ]
+}

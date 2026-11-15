@@ -2,7 +2,7 @@
 
 // 氷の魔術師（#58）。ボスは Iron's Spells の氷魔術師（irons_spellbooks:cryomancer）を使う
 // （2026-11-12、利用者と決定。ボスは自作せず、既存の MOD のものを使う方針）。
-// 強さと戦い方は Iron's Spells のまま。名前は client_scripts/ice_mage.js、ボスバーは server_scripts/boss_bar.js、
+// 戦い方は Iron's Spells のまま。体力と攻撃の倍率は等級で決める（grades.js）。名前は client_scripts/ice_mage.js、ボスバーは server_scripts/boss_bar.js、
 // 魂は server_scripts/boss_souls.js。
 // 拠点はバニラのイグルー（Remastered Structure の雪と青い氷の城。2026-11-13、利用者がゲームの中で選んだ）。
 // そこで呼び出した1体だけが氷の魔術師で、名前（entity.kenma.ice_mage）と目印のタグ kenma_heir が付く（server_scripts/structure_bases.js）。

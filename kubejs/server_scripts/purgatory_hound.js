@@ -4,7 +4,7 @@
 // （2026-11-13、利用者と決定。ボスは自作せず、既存の MOD のものを使う方針）。
 // 作中の煉獄の猟犬は、淀みと瘴気で変異した煉獄の魔術師の元飼い犬（元のモブは有料の Cerberus）。
 // パックに猟犬の見た目のボスがいないので、「煉獄」に合うネザーの溶岩の怪物を使う。見た目は犬ではない。
-// 強さと戦い方は Cataclysm のまま（強さは #4 でまとめて調整する）。
+// 戦い方は Cataclysm のまま。体力と攻撃の倍率は等級で決める（grades.js）。
 // 名前は client_scripts/purgatory_hound.js、魂は server_scripts/boss_souls.js、ボスバーは Cataclysm のもの。
 // 拠点は Cataclysm の Soul Black Smith（ネザーの魂の鍛冶場。ネザライトの怪物がもとからいて、ほかの場所にはいない）。
 //

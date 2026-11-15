@@ -2,7 +2,7 @@
 
 // 淀みの剣士（#53）。ボスは Cataclysm のアプトルガングル（cataclysm:aptrgangr）を使う
 // （2026-11-12、利用者と決定。ボスは自作せず、既存の MOD のものを使う方針）。
-// 強さと戦い方は Cataclysm のまま。ボスバーは server_scripts/boss_bar.js、魂は server_scripts/boss_souls.js。
+// 戦い方は Cataclysm のまま。体力と攻撃の倍率は等級で決める（grades.js）。ボスバーは server_scripts/boss_bar.js、魂は server_scripts/boss_souls.js。
 // 拠点はジャングルのピラミッド（server_scripts/structure_bases.js）。そこで呼び出したアプトルガングルだけが淀みの剣士で、
 // 名前（entity.kenma.stagnation_swordsman）と目印のタグ kenma_heir が付く。
 // Cataclysm の Frosted Prison にもとからいるアプトルガングルは、名前も報酬ももとのまま（1つの拠点にだけ出す。2026-11-13、利用者と決定）。

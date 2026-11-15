@@ -4,7 +4,7 @@
 // （2026-11-13、利用者と決定。ボスは自作せず、既存の MOD のものを使う方針）。
 // 作中の獣人の墓守は「シンプルに殴るだけ」で「とてつもなく硬い」。Energium Golem は体力500・防具値16で、これに合う。
 // 見た目はゴーレムで獣人ではない（獣人の見た目の Just in Nether の Bullkindar も考えたが、ネザーに自然にわくので使わない）。
-// 強さと戦い方は Keepers of the Stones II のまま（強さは #4 でまとめて調整する）。
+// 戦い方は Keepers of the Stones II のまま。体力と攻撃の倍率は等級で決める（grades.js）。
 // 名前は client_scripts/beast_gravekeeper.js、魂は server_scripts/boss_souls.js、ボスバーは Keepers of the Stones II のもの。
 // 拠点は Keepers of the Stones II の Energium Temple（Energium Golem がもとからいる神殿。砂漠と荒野）。
 //

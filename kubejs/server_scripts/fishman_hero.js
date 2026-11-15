@@ -1,7 +1,7 @@
 // priority: 0
 
 // 魚人の英雄（#56、第三等級の継承者）。Cataclysm のリヴァイアサン（cataclysm:the_leviathan）を使う（2026-11-12、利用者と決定）。
-// 強さと戦い方は Cataclysm のまま（水の外では無敵なので、水中で戦う）。名前は client_scripts/fishman_hero.js で変える。
+// 戦い方は Cataclysm のまま（水の外では無敵なので、水中で戦う）。体力と攻撃の倍率は等級で決める（grades.js）。名前は client_scripts/fishman_hero.js で変える。
 //
 // 作中の深海の魔法（Pixiv 百科事典）は5つ。どれも Cataclysm Spellbooks の深淵（Abyssal）系統の呪文:
 //   アビサルプレデター = abyssal_predator、タイダルティア = abyssal_slash（Tidal Tear）、

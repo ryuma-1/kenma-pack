@@ -2,7 +2,7 @@
 
 // 半竜の乙女（#55）。ボスは Cataclysm のイグニス（cataclysm:ignis）を使う
 // （2026-11-12、利用者と決定。ボスは自作せず、既存の MOD のものを使う方針）。
-// 強さ、戦い方、ボスバーは Cataclysm のまま。名前は client_scripts/dragon_maiden.js、魂は server_scripts/boss_souls.js。
+// 戦い方、ボスバーは Cataclysm のまま。体力と攻撃の倍率は等級で決める（grades.js）。名前は client_scripts/dragon_maiden.js、魂は server_scripts/boss_souls.js。
 //
 // 作中の炎の魔法（Pixiv 百科事典）は6つ。呪文との対応（2026-11-12、利用者と決定）:
 //   バーニングダッシュ = irons_spellbooks:burning_dash、ファイアエンブレイス = peyroscythe:sinfire_embrace、

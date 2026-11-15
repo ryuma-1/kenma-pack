@@ -3,7 +3,7 @@
 // 召喚の魔術師（#57）。ボスは Cataclysm のハービンジャー（cataclysm:the_harbinger）を使う
 // （2026-11-13、利用者と決定。はじめは Iron's Spells のアーキヴォーカーにしていたが、Cataclysm のボスを積極的に使う方針にして変えた）。
 // 作中の召喚の魔術師は「占領地の強制労働施設を管理していた帝国魔術師」。ハービンジャーは古代の工場の機械のボスで、施設の管理者に合う。
-// 強さと戦い方は Cataclysm のまま（体力390。強さは #4 でまとめて調整する）。ボスバーは Cataclysm のもの、魂は server_scripts/boss_souls.js。
+// 戦い方は Cataclysm のまま。体力と攻撃の倍率は等級で決める（grades.js）。ボスバーは Cataclysm のもの、魂は server_scripts/boss_souls.js。
 // 拠点は IDAS の古代の鉱山（作中の「鉱山」）の最下部の大きな広間（server_scripts/structure_bases.js）。そこで呼び出したハービンジャーだけが
 // 召喚の魔術師で、名前（entity.kenma.summoner_mage）と目印のタグ kenma_heir が付く。
 // Cataclysm の Ancient Factory にもとからいるハービンジャーは、名前も報酬ももとのまま（1つの拠点にだけ出す）。

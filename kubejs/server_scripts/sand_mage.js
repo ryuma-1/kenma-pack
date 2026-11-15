@@ -4,7 +4,7 @@
 // （2026-11-13、利用者と決定。ボスは自作せず、既存の MOD のものを使う方針）。
 // 拠点は、もとからいる Cataclysm の Cursed Pyramid（砂漠）。半竜の乙女（イグニス）と同じく、どの Ancient Remnant も砂塵の魔術師で、
 // 目印のタグは使わない。同じピラミッドの Wadjet は、星降りの聖職者ではない（星降りの聖職者は Mountain Tower で呼び出す）。
-// 強さ、戦い方、ボスバーは Cataclysm のまま。名前は client_scripts/sand_mage.js、魂は server_scripts/boss_souls.js。
+// 戦い方、ボスバーは Cataclysm のまま。体力と攻撃の倍率は等級で決める（grades.js）。名前は client_scripts/sand_mage.js、魂は server_scripts/boss_souls.js。
 // 作中の砂塵の魔法と呪文の対応は startup_scripts/sand_magic.js。
 
 // 倒されたら、砂塵の封印石（endrem:old_eye）1個と、次の10から、ランダムに2〜3枚の巻物（レベル1、同じものは出ない）を落とす。

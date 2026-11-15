@@ -30,6 +30,7 @@ StartupEvents.registry('entity_type', event => {
 
 EntityJSEvents.attributes(event => {
   event.modify('kenma:earth_mage', attributes => {
+    // 体力は、等級（第四）の値で上書きする（server_scripts/grades.js、kubejs/config/grades.json）。
     attributes.add('minecraft:generic.max_health', 100)
     attributes.add('minecraft:generic.movement_speed', 0.25)
     attributes.add('minecraft:generic.follow_range', 32)

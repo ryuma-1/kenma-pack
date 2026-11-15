@@ -2,7 +2,7 @@
 
 // 帝国近衛騎士（#63）。ボスは Cataclysm のマレディクタス（cataclysm:maledictus）を使う
 // （2026-11-13、利用者と決定。ボスは自作せず、既存の MOD のものを使う方針）。斧と矛を使い、作中の「斧術と魔法の機動戦」に合う。
-// 強さと戦い方は Cataclysm のまま（強さは #4 でまとめて調整する）。ボスバーは Cataclysm のもの（第1・第2形態で2本）、
+// 戦い方は Cataclysm のまま。体力と攻撃の倍率は等級で決める（grades.js）。ボスバーは Cataclysm のもの（第1・第2形態で2本）、
 // 魂は server_scripts/boss_souls.js。
 // 拠点は Cavernous の地下の城塞 The Citadel（作中の「禁足地」）。そこで呼び出したマレディクタスだけが帝国近衛騎士で、
 // 名前（entity.kenma.imperial_guard）と目印のタグ kenma_heir が付く（server_scripts/structure_bases.js）。

@@ -3,7 +3,7 @@
 // 星降りの聖職者（#54）。ボスは Cataclysm の古の魔術槍士の骸（cataclysm:wadjet）を使う
 // （2026-11-12、利用者と決定。ボスは自作せず、既存の MOD のものを使う方針。聖職者らしい見た目でなくてよいので、
 // 魔法を使い、第四等級に合う強さのものを選んだ）。
-// 強さと戦い方は Cataclysm のまま。名前は client_scripts/astral_priest.js、ボスバーは server_scripts/boss_bar.js、
+// 戦い方は Cataclysm のまま。体力と攻撃の倍率は等級で決める（grades.js）。名前は client_scripts/astral_priest.js、ボスバーは server_scripts/boss_bar.js、
 // 魂は server_scripts/boss_souls.js。
 // 拠点は Iron's Spells の Mountain Tower（2026-11-13、利用者がゲームの中で選んだ）。
 // そこで呼び出した Wadjet だけが星降りの聖職者で、名前（entity.kenma.astral_priest）と目印のタグ kenma_heir が付く

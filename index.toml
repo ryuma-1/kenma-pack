@@ -574,6 +574,10 @@ file = "kubejs/client_scripts/summoner_mage.js"
 hash = "d3809e6a95c730262f8f7b92616d97d357eefdbbe010811b6030f356c55baa5f"
 
 [[files]]
+file = "kubejs/config/grades.json"
+hash = "2dedb4e832ac835aedc71a84957eea255d23d4012a0c73d094ed4b6aacdff2dc"
+
+[[files]]
 file = "kubejs/data/irons_spells_skill_tree/puffish_skills/categories/magic/category.json"
 hash = "3a85925fbff67186f7465a5dbc643a70ce0ae3815a1000c2db78188d2a66a9bd"
 
@@ -600,6 +604,10 @@ hash = "bb594ad184519b4cfb04ddbc79fe5f07abb72668ea6ef797bb5ac21d96c3ad46"
 [[files]]
 file = "kubejs/data/kenma/tags/items/stagnation_focus.json"
 hash = "6bc621204787b8580f27ad681679e4c1b4820327b9bfd29c6b3320e580720e72"
+
+[[files]]
+file = "kubejs/data/l2hostility/l2hostility_config/entity/bosses.json"
+hash = "88f3a5fa4aaab40ff6f555420da8db98bf749537e12933ae4f124282239d0445"
 
 [[files]]
 file = "kubejs/data/minecraft/tags/damage_type/bypasses_armor.json"
@@ -631,11 +639,11 @@ hash = "bc0c2f28eae2e628397465ff24e6a52e6eeb004d1e47530b597c6615ee69941a"
 
 [[files]]
 file = "kubejs/server_scripts/astral_priest.js"
-hash = "8931b2643344ee2620f6ebbf787c7154f2e86928b70536bd263f24b477502cf9"
+hash = "8a19465748ce9f74ed427aef84abcc728cf2e931f2ea06b688130d5e36c87b2d"
 
 [[files]]
 file = "kubejs/server_scripts/beast_gravekeeper.js"
-hash = "27b9a8bebb15119c08f18b84dd74b63e5033dbb71bc16d95f0efc7eb47bd7785"
+hash = "ac5bf8eb2542c88e6d319c61a584dcfbfe48a8a56c241bf1f807994649606a2c"
 
 [[files]]
 file = "kubejs/server_scripts/boss_bar.js"
@@ -651,11 +659,11 @@ hash = "227431187bd47b47476396a0aab956129d51c3ae358049c1f5b11c37b6b86942"
 
 [[files]]
 file = "kubejs/server_scripts/dragon_maiden.js"
-hash = "1b17c19b5fffccd71619984a330463993ceeff6ea953663ee8397582888f9256"
+hash = "78b054ddea0aed252aac7653607e7c66a24dc3b340d348843ace9ba6c2bb3082"
 
 [[files]]
 file = "kubejs/server_scripts/dragon_slayer.js"
-hash = "8f5d9cdf2df7e8e743fecb22b1830ac4d700e9a3ed6b240e990dcb3bc88a073d"
+hash = "0e30a7cf84f7b7e640c2f1d2ac3e34cddc856a04b872702e1ae519e93e0ee278"
 
 [[files]]
 file = "kubejs/server_scripts/earth_mage.js"
@@ -663,15 +671,19 @@ hash = "17a5a95ccd2e864c271d8c915ac537c9e6ce5cb2a94eff4a6404ae233db9eedf"
 
 [[files]]
 file = "kubejs/server_scripts/endgame.js"
-hash = "cc6b43124e41163b6ce2df065627267483387573b0eeff52822e7d2d6458b4cc"
+hash = "309556f88e2951ba711aa0c55af7b300ff45dfcfefdcb85c82f369bec488d6fd"
 
 [[files]]
 file = "kubejs/server_scripts/fishman_hero.js"
-hash = "dfd2cf558cfd0dd9ad89f6f09976297750674e44b66012bbd50b150572a51821"
+hash = "b37a5af7015e24c709f2cf9957f49fa7b8597ec46452d0ea2ff22da5caca4470"
 
 [[files]]
 file = "kubejs/server_scripts/gate_key.js"
 hash = "23122f000c732edb9709ca3d24bee75c5b66ec062f94dec011b33de2b0181358"
+
+[[files]]
+file = "kubejs/server_scripts/grades.js"
+hash = "bf35a85f8fc18f482d5650c2c1ddac12c251ec186218792bec8287dd23d00b8a"
 
 [[files]]
 file = "kubejs/server_scripts/hero_armor.js"
@@ -679,11 +691,11 @@ hash = "0f30bfa83c208b727cd89053f51a3f97479527ccce1440809494aead10bba67a"
 
 [[files]]
 file = "kubejs/server_scripts/ice_mage.js"
-hash = "b3d59153e1430af3b14b3c20898c11703ed95ada52a79d768e2ee7b65d8f03c7"
+hash = "9e724b58b90ee4be4285e8388790abe35ccadbce6dd71b8d6dbeb6e00c60e1a3"
 
 [[files]]
 file = "kubejs/server_scripts/imperial_guard.js"
-hash = "98ede1f8a34e51e6956107b2ad682ec577759274eb059c1427d291a1d6035a67"
+hash = "2d1125bf4c375b7a11641d4d31e37582dd9965f77bf81caaf9fd276b64318a7e"
 
 [[files]]
 file = "kubejs/server_scripts/miasma.js"
@@ -695,7 +707,7 @@ hash = "57f42cc7a8882d40118590b96527c852228074fbfb04ccf383bb265686f2a598"
 
 [[files]]
 file = "kubejs/server_scripts/purgatory_hound.js"
-hash = "535fa74df9cebf181f32f09743af012579f651044f6f9d02b01e4a1118576b10"
+hash = "d19c39afe77ae7e6bd08f4495bf24854a6e7f01aa00e5629d3a12f8fc603706f"
 
 [[files]]
 file = "kubejs/server_scripts/rune_upgrade.js"
@@ -703,7 +715,7 @@ hash = "eae095d243fe62eb4ead5e44a92ca964ad0b02a4341937007b04a6b41159ef51"
 
 [[files]]
 file = "kubejs/server_scripts/sand_mage.js"
-hash = "c7d20eda6625e7213163dcf76f7358ce83e36e494e108331845f99158f1b7e44"
+hash = "7bc3a2894890c8ced3edc47e57ce0c242a90bcdb10ef9d4b8d6859a1ba667a84"
 
 [[files]]
 file = "kubejs/server_scripts/seal_stones.js"
@@ -715,7 +727,7 @@ hash = "774c226ec0a5c9a4c7e5b6e9f53d5bcbc29da010ae70c60aeb847b6eafd5dbd1"
 
 [[files]]
 file = "kubejs/server_scripts/stagnation_swordsman.js"
-hash = "a04e9431634c2af9e239595be2fa9221e9d44956a15a8c0da26e971f10fbd649"
+hash = "4e10694d367604abe7fc1acf0c77b5f46bcce0b465076ee9586d5f46d3930d95"
 
 [[files]]
 file = "kubejs/server_scripts/structure_bases.js"
@@ -723,7 +735,7 @@ hash = "6666cee652fa0e0cb71462dad51830ed0835676f8d13d0a9aaf6e91602aaffe7"
 
 [[files]]
 file = "kubejs/server_scripts/summoner_mage.js"
-hash = "d32fd0372307f8cadd982a7ececeb060b7a8ecdb9126398f607c5ef942f2c621"
+hash = "6b15755bc0f1309207133dd731e94f7c28a2d0dc2c6a86072f0ab2c94ad15557"
 
 [[files]]
 file = "kubejs/startup_scripts/armor_materials.js"
@@ -747,7 +759,7 @@ hash = "2236d2172a94562c2f38f9d7d0b5accff12445966ce775ac9db6a4800dede777"
 
 [[files]]
 file = "kubejs/startup_scripts/earth_mage.js"
-hash = "e919af525b148e533ad41227b15472419acec9e7dc89157fc8e065f67aa4dd9d"
+hash = "dc3bccf507ac913abb92e35d3326cdb055f760e528efea1738f0a9ef065d237a"
 
 [[files]]
 file = "kubejs/startup_scripts/earth_magic.js"
@@ -756,6 +768,10 @@ hash = "255c045087f145b546accc750a7898382f4b159a5d0968e9e81eb8b0576aef65"
 [[files]]
 file = "kubejs/startup_scripts/exorcism.js"
 hash = "77e50b7817e7c7593b0ea58c3f5477240b43e9b3ab9a68bb342057e443383f41"
+
+[[files]]
+file = "kubejs/startup_scripts/grades.js"
+hash = "ad33216a0a804ef78d631da157f60500ed9ea33681735bf67b40222b84094b4e"
 
 [[files]]
 file = "kubejs/startup_scripts/holy_magic.js"
