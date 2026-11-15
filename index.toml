@@ -691,7 +691,7 @@ hash = "9c930a543bc5bb2ba7277c01ae19f5b1cdc58f09686ac2631c72cdfe57bb71a4"
 
 [[files]]
 file = "kubejs/server_scripts/endgame.js"
-hash = "5b35d52e858075f50b0f4c32a80e3ce7e97d9ade9180b2099e78bddb2ee524e1"
+hash = "59e247e9b4ebfbb5e5d665cbffbdd0080b48c88a130bc26c79c8cc5e2dcf651b"
 
 [[files]]
 file = "kubejs/server_scripts/fishman_hero.js"

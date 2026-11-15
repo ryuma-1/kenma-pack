@@ -37,10 +37,18 @@ const PROGENITOR_DRAGON_EXTRA_SCROLL_SPELLS = [
   ['peyroscythe:black_flame_wings', 1],
 ]
 
+// 始祖の竜が死んだら、竜星（Skyfall の隕石）を止める（#122。2026-11-16、利用者と決定）。
+// ふだんの隕石（naturalMeteorites）と流星群（meteoriteShowers）の両方。どちらも Skyfall 3.0.0 のゲームルールで、
+// ワールドに保存されるので、再起動しても止まったまま。戻すときは、OP が /gamerule で true にする。
+// 止めたあとは、隕石から取れる Stardust（竜星避けの材料）も手に入らなくなる。
+const DRAGON_STAR_GAMERULES = ['naturalMeteorites', 'meteoriteShowers']
+
 EntityEvents.death('minecraft:ender_dragon', event => {
   event.entity.block.popItem(Item.of('callfromthedepth_:depth'))
   global.kenmaBossLoot.dropScrolls(event.entity, EXORCISM_STORY_SPELLS, 3, 4)
   global.kenmaBossLoot.dropScrolls(event.entity, PROGENITOR_DRAGON_EXTRA_SCROLL_SPELLS, 1, 1)
+  DRAGON_STAR_GAMERULES.forEach(rule => event.server.runCommandSilent(`gamerule ${rule} false`))
+  console.info('endgame: 始祖の竜が倒れたので、竜星（Skyfall の隕石）を止めた')
 })
 
 ServerEvents.recipes(event => {
