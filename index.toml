@@ -583,7 +583,7 @@ hash = "d3809e6a95c730262f8f7b92616d97d357eefdbbe010811b6030f356c55baa5f"
 
 [[files]]
 file = "kubejs/config/grades.json"
-hash = "d58efec2f626d19ed57f858f4bedd027e483791bb87e2220dc1290da6003f9fb"
+hash = "d830999cd14a08a1b0c85e8bdc01a7de69d228197141b84f9cd2dac68e5fc12c"
 
 [[files]]
 file = "kubejs/data/irons_spells_skill_tree/puffish_skills/categories/magic/category.json"
@@ -750,6 +750,10 @@ file = "kubejs/server_scripts/summoner_mage.js"
 hash = "5368ce5aa977add5bd7743c2dea6696442fec69a62f6161eb35fbdd971cecb1d"
 
 [[files]]
+file = "kubejs/server_scripts/super_mobs.js"
+hash = "b03028048376f3c99ca311204a1fcb687012c8381e07cd817db6d971a9feb5a2"
+
+[[files]]
 file = "kubejs/startup_scripts/armor_materials.js"
 hash = "bb697b83aba267555f01c4ca0ed70224e3f4a0bb5fcf681f93a66df151cc1e48"
 
@@ -812,6 +816,10 @@ hash = "c468631c9dd7c7f6cebb5773f86cec8670927224bf615cefa7257304a141435c"
 [[files]]
 file = "kubejs/startup_scripts/stagnation_magic.js"
 hash = "1e2d65b26c025e5cda6ea10af742741f98dcf9e4db8bad232bf5d719225cdb5b"
+
+[[files]]
+file = "kubejs/startup_scripts/super_mobs.js"
+hash = "9d0cb2c56901de2af3b3ae5a7313743cdd22221632427acc490aa9c849f6033e"
 
 [[files]]
 file = "mods/alekiships.pw.toml"
