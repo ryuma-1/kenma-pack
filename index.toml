@@ -518,6 +518,10 @@ file = "kubejs/client_scripts/dragon_slayer.js"
 hash = "5d02b27f4026ab63df51a05ef73e4ffd8b7e5403cc074b441c9fd17c67032375"
 
 [[files]]
+file = "kubejs/client_scripts/dragon_star_ward.js"
+hash = "a7262e2c69b21c8ad57f0ea7d506cb66c9d0bf77e5b5d60456427d83d5f8ad95"
+
+[[files]]
 file = "kubejs/client_scripts/earth_mage.js"
 hash = "29a52a3309d5af0e5d93ba9cab7ef742f776f5e62682c3a4fcfbed97f271f329"
 
@@ -676,6 +680,10 @@ hash = "2a8aee7b53f1e2f88d2ab3f0b996cc9d26185046416e37ec041111652b937fb2"
 [[files]]
 file = "kubejs/server_scripts/dragon_slayer.js"
 hash = "0e30a7cf84f7b7e640c2f1d2ac3e34cddc856a04b872702e1ae519e93e0ee278"
+
+[[files]]
+file = "kubejs/server_scripts/dragon_star_ward.js"
+hash = "222761cf5481367e0672a900ea919bb2ad633a895499d1caa9f3ade6751741bd"
 
 [[files]]
 file = "kubejs/server_scripts/earth_mage.js"
