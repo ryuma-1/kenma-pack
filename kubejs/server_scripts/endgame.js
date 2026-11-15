@@ -28,9 +28,19 @@ const EXORCISM_EXTRA_SPELLS = [
 // クリスタルによる軽減は startup_scripts/exorcism.js。
 // 体力は、等級（第零）で決める（server_scripts/grades.js、kubejs/config/grades.json）。
 
+// どのボスの報酬にも入っていなかった呪文から、エルドリッチとエンダーの呪文（#98。2026-11-15、利用者と決定）。
+// 作中の退魔の法の3〜4枚とは別に、ここから1枚を落とす（混ぜると、作中の呪文が出にくくなるため）。
+const PROGENITOR_DRAGON_EXTRA_SCROLL_SPELLS = [
+  ['irons_spellbooks:eldritch_blast', 1], ['irons_spellbooks:sculk_tentacles', 1],
+  ['irons_spellbooks:sonic_boom', 1], ['irons_spellbooks:telekinesis', 1], ['irons_spellbooks:planar_sight', 1],
+  ['irons_spellbooks:summon_ender_chest', 1], ['irons_spellbooks:invisibility', 1], ['peyroscythe:young_for_you', 1],
+  ['peyroscythe:black_flame_wings', 1],
+]
+
 EntityEvents.death('minecraft:ender_dragon', event => {
   event.entity.block.popItem(Item.of('callfromthedepth_:depth'))
   global.kenmaBossLoot.dropScrolls(event.entity, EXORCISM_STORY_SPELLS, 3, 4)
+  global.kenmaBossLoot.dropScrolls(event.entity, PROGENITOR_DRAGON_EXTRA_SCROLL_SPELLS, 1, 1)
 })
 
 ServerEvents.recipes(event => {

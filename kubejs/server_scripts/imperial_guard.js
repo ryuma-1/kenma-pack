@@ -30,9 +30,17 @@ const IMPERIAL_GUARD_SCROLL_SPELLS = [
   ['irons_spellbooks:raise_dead', 1], ['cataclysm_spellbooks:quick_strike', 1], ['cataclysm_spellbooks:final_rend', 1],
 ]
 
+// どのボスの報酬にも入っていなかった呪文から、血の呪文（#98。2026-11-15、利用者と決定）。
+// 上の一覧の2〜3枚とは別に、ここから1枚を落とす（混ぜると、作中の呪文が出にくくなるため）。
+const IMPERIAL_GUARD_EXTRA_SCROLL_SPELLS = [
+  ['irons_spellbooks:ray_of_siphoning', 1], ['irons_spellbooks:sacrifice', 1], ['irons_spellbooks:wither_skull', 1],
+  ['peyroscythe:crimson_moon', 1],
+]
+
 EntityEvents.death('cataclysm:maledictus', event => {
   if (!event.entity.tags.contains('kenma_heir')) return
   // 封印石は、もとのルートテーブルを書き換えずに足すため、ここで落とす。
   event.entity.block.popItem(Item.of('endrem:wither_eye'))
   global.kenmaBossLoot.dropScrolls(event.entity, IMPERIAL_GUARD_SCROLL_SPELLS, 2, 3)
+  global.kenmaBossLoot.dropScrolls(event.entity, IMPERIAL_GUARD_EXTRA_SCROLL_SPELLS, 1, 1)
 })

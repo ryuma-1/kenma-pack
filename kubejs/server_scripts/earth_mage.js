@@ -43,6 +43,12 @@ const EARTH_MAGE_SCROLL_SPELLS = [
   ['irons_spellbooks:poison_arrow', 1], ['irons_spellbooks:spider_aspect', 1],
 ]
 
+// どのボスの報酬にも入っていなかった呪文から、自然の呪文（#98。2026-11-15、利用者と決定）。
+// 上の一覧の2〜3枚とは別に、ここから1枚を落とす（混ぜると、作中の呪文が出にくくなるため）。
+const EARTH_MAGE_EXTRA_SCROLL_SPELLS = [
+  ['cataclysm_spellbooks:amethyst_puncture', 1], ['cataclysm_spellbooks:conjure_amethyst_crab', 1],
+]
+
 EntityEvents.death('kenma:earth_mage', event => {
   // 何度も呼ばれる関数なので var で書く（boss_bar.js の注意を参照）。
   var spells = EARTH_MAGE_SCROLL_SPELLS.slice(), count = Math.random() < 0.5 ? 2 : 3, i, j, tmp
@@ -56,6 +62,7 @@ EntityEvents.death('kenma:earth_mage', event => {
     event.entity.block.popItem(Item.of('irons_spellbooks:scroll',
       `{ISB_Spells:{data:[{id:"${spells[i][0]}",index:0,level:${spells[i][1]},locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}`))
   }
+  global.kenmaBossLoot.dropScrolls(event.entity, EARTH_MAGE_EXTRA_SCROLL_SPELLS, 1, 1)
 })
 
 // 狙う相手を決めるイベントは addGoals（addGoalTargets ではない。#45）。

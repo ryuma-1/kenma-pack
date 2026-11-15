@@ -18,9 +18,16 @@ const STAGNATION_SWORDSMAN_SCROLL_SPELLS = [
   ['peyroscythe:death_smoke', 1], ['peyroscythe:chaos_cradle', 1],
 ]
 
+// どのボスの報酬にも入っていなかった呪文から、淀み（遅くする）らしい呪文（#98。2026-11-15、利用者と決定）。
+// 上の一覧の2〜3枚とは別に、ここから1枚を落とす（混ぜると、作中の呪文が出にくくなるため）。
+const STAGNATION_SWORDSMAN_EXTRA_SCROLL_SPELLS = [
+  ['irons_spellbooks:slow', 1],
+]
+
 EntityEvents.death('cataclysm:aptrgangr', event => {
   if (!event.entity.tags.contains('kenma_heir')) return
   // 封印石は、もとのルートテーブルを書き換えずに足すため、ここで落とす。
   event.entity.block.popItem(Item.of('endrem:rogue_eye'))
   global.kenmaBossLoot.dropScrolls(event.entity, STAGNATION_SWORDSMAN_SCROLL_SPELLS, 2, 3)
+  global.kenmaBossLoot.dropScrolls(event.entity, STAGNATION_SWORDSMAN_EXTRA_SCROLL_SPELLS, 1, 1)
 })

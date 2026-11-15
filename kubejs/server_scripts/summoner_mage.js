@@ -20,9 +20,28 @@ const SUMMONER_MAGE_SCROLL_SPELLS = [
   ['irons_spellbooks:gust', 1], ['irons_spellbooks:shield', 1],
 ]
 
+// どのボスの報酬にも入っていなかった呪文から、テクノマンシー（Harbinger は機械のボス）と、呼び出す・喚起の呪文（#98。2026-11-15、利用者と決定）。
+// 上の一覧の2〜3枚とは別に、ここから1枚を落とす（混ぜると、作中の呪文が出にくくなるため）。
+const SUMMONER_MAGE_EXTRA_SCROLL_SPELLS = [
+  ['cataclysm_spellbooks:aerial_assault', 1], ['cataclysm_spellbooks:atomic_laser', 1],
+  ['cataclysm_spellbooks:construct_prowler', 1], ['cataclysm_spellbooks:construct_watchers', 1],
+  ['cataclysm_spellbooks:dos_swarm', 1], ['cataclysm_spellbooks:emp_blast', 1],
+  ['cataclysm_spellbooks:intrusion_prevention_system', 1], ['cataclysm_spellbooks:ddos', 1],
+  ['cataclysm_spellbooks:disabling_swipe', 1], ['cataclysm_spellbooks:flash_bang', 1],
+  ['cataclysm_spellbooks:gear_shift', 1], ['cataclysm_spellbooks:hardware_update', 1],
+  ['cataclysm_spellbooks:laserbolt', 1], ['cataclysm_spellbooks:lock_on', 1],
+  ['cataclysm_spellbooks:missile_launch', 1], ['cataclysm_spellbooks:overcharged', 1],
+  ['cataclysm_spellbooks:reboot', 1], ['cataclysm_spellbooks:rewire', 1], ['cataclysm_spellbooks:shutdown', 1],
+  ['cataclysm_spellbooks:software_update', 1], ['cataclysm_spellbooks:surveillance_drone', 1],
+  ['cataclysm_spellbooks:parting_shot', 1], ['irons_spellbooks:summon_vex', 1], ['irons_spellbooks:summon_horse', 1],
+  ['irons_spellbooks:fang_ward', 1], ['irons_spellbooks:wololo', 1], ['irons_spellbooks:chain_creeper', 1],
+  ['irons_spellbooks:lob_creeper', 1],
+]
+
 EntityEvents.death('cataclysm:the_harbinger', event => {
   if (!event.entity.tags.contains('kenma_heir')) return
   // 封印石は、もとのルートテーブルを書き換えずに足すため、ここで落とす。
   event.entity.block.popItem(Item.of('endrem:magical_eye'))
   global.kenmaBossLoot.dropScrolls(event.entity, SUMMONER_MAGE_SCROLL_SPELLS, 2, 3)
+  global.kenmaBossLoot.dropScrolls(event.entity, SUMMONER_MAGE_EXTRA_SCROLL_SPELLS, 1, 1)
 })

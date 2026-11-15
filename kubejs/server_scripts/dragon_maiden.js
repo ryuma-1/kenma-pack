@@ -25,8 +25,18 @@ const DRAGON_MAIDEN_SCROLL_SPELLS = [
   ['cataclysm_spellbooks:incineration', 1],
 ]
 
+// どのボスの報酬にも入っていなかった呪文から、炎の呪文（#98。2026-11-15、利用者と決定）。
+// 上の一覧の2〜3枚とは別に、ここから1枚を落とす（混ぜると、作中の呪文が出にくくなるため）。
+const DRAGON_MAIDEN_EXTRA_SCROLL_SPELLS = [
+  ['cataclysm_spellbooks:ashen_breath', 1], ['cataclysm_spellbooks:bone_storm', 1],
+  ['cataclysm_spellbooks:conjure_ignited_reinforcement', 1], ['cataclysm_spellbooks:infernal_strike', 1],
+  ['cataclysm_spellbooks:piercing_bone', 1], ['cataclysm_spellbooks:scorched_earth', 1],
+  ['peyroscythe:summon_blaze', 1], ['irons_spellbooks:firecracker', 1],
+]
+
 EntityEvents.death('cataclysm:ignis', event => {
   // 封印石は、もとのルートテーブルを書き換えずに足すため、ここで落とす。
   event.entity.block.popItem(Item.of('endrem:cursed_eye'))
   global.kenmaBossLoot.dropScrolls(event.entity, DRAGON_MAIDEN_SCROLL_SPELLS, 2, 3)
+  global.kenmaBossLoot.dropScrolls(event.entity, DRAGON_MAIDEN_EXTRA_SCROLL_SPELLS, 1, 1)
 })

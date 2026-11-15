@@ -21,8 +21,16 @@ const SAND_MAGE_SCROLL_SPELLS = [
   ['cataclysm_spellbooks:summon_koboleton', 1],
 ]
 
+// どのボスの報酬にも入っていなかった呪文から、幻と、砂塵の魔術師らしい呪文（#98。2026-11-15、利用者と決定）。
+// 上の一覧の2〜3枚とは別に、ここから1枚を落とす（混ぜると、作中の呪文が出にくくなるため）。
+const SAND_MAGE_EXTRA_SCROLL_SPELLS = [
+  ['peyroscythe:made_in_heaven_real', 1], ['peyroscythe:illusion_crazy', 1], ['peyroscythe:illusion_fear', 1],
+  ['cataclysm_spellbooks:pilfer', 1],
+]
+
 EntityEvents.death('cataclysm:ancient_remnant', event => {
   // 封印石は、もとのルートテーブルを書き換えずに足すため、ここで落とす。
   event.entity.block.popItem(Item.of('endrem:old_eye'))
   global.kenmaBossLoot.dropScrolls(event.entity, SAND_MAGE_SCROLL_SPELLS, 2, 3)
+  global.kenmaBossLoot.dropScrolls(event.entity, SAND_MAGE_EXTRA_SCROLL_SPELLS, 1, 1)
 })

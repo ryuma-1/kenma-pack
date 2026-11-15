@@ -667,7 +667,7 @@ hash = "ba65cf167701962d73387b764dce080c761df4b2cf1ba21e0f6ebcaed50c5dfe"
 
 [[files]]
 file = "kubejs/server_scripts/dragon_maiden.js"
-hash = "78b054ddea0aed252aac7653607e7c66a24dc3b340d348843ace9ba6c2bb3082"
+hash = "2a8aee7b53f1e2f88d2ab3f0b996cc9d26185046416e37ec041111652b937fb2"
 
 [[files]]
 file = "kubejs/server_scripts/dragon_slayer.js"
@@ -675,15 +675,15 @@ hash = "0e30a7cf84f7b7e640c2f1d2ac3e34cddc856a04b872702e1ae519e93e0ee278"
 
 [[files]]
 file = "kubejs/server_scripts/earth_mage.js"
-hash = "17a5a95ccd2e864c271d8c915ac537c9e6ce5cb2a94eff4a6404ae233db9eedf"
+hash = "9c930a543bc5bb2ba7277c01ae19f5b1cdc58f09686ac2631c72cdfe57bb71a4"
 
 [[files]]
 file = "kubejs/server_scripts/endgame.js"
-hash = "309556f88e2951ba711aa0c55af7b300ff45dfcfefdcb85c82f369bec488d6fd"
+hash = "5b35d52e858075f50b0f4c32a80e3ce7e97d9ade9180b2099e78bddb2ee524e1"
 
 [[files]]
 file = "kubejs/server_scripts/fishman_hero.js"
-hash = "b37a5af7015e24c709f2cf9957f49fa7b8597ec46452d0ea2ff22da5caca4470"
+hash = "43c324cc8aefe61a88b9e17a39f3e3ab1b6bb1f31e085638b44fa841da4fe711"
 
 [[files]]
 file = "kubejs/server_scripts/gate_key.js"
@@ -703,7 +703,7 @@ hash = "9e724b58b90ee4be4285e8388790abe35ccadbce6dd71b8d6dbeb6e00c60e1a3"
 
 [[files]]
 file = "kubejs/server_scripts/imperial_guard.js"
-hash = "2d1125bf4c375b7a11641d4d31e37582dd9965f77bf81caaf9fd276b64318a7e"
+hash = "7af58b143f6ccabf43ecf7367d72f9360669b1004da20f83bd56f70a7c07aed4"
 
 [[files]]
 file = "kubejs/server_scripts/miasma.js"
@@ -723,7 +723,7 @@ hash = "eae095d243fe62eb4ead5e44a92ca964ad0b02a4341937007b04a6b41159ef51"
 
 [[files]]
 file = "kubejs/server_scripts/sand_mage.js"
-hash = "7bc3a2894890c8ced3edc47e57ce0c242a90bcdb10ef9d4b8d6859a1ba667a84"
+hash = "819ab4f548ae62d08e578e815e4904a258546fde025d69e3079f4212afe6bf8e"
 
 [[files]]
 file = "kubejs/server_scripts/seal_stones.js"
@@ -735,7 +735,7 @@ hash = "774c226ec0a5c9a4c7e5b6e9f53d5bcbc29da010ae70c60aeb847b6eafd5dbd1"
 
 [[files]]
 file = "kubejs/server_scripts/stagnation_swordsman.js"
-hash = "4e10694d367604abe7fc1acf0c77b5f46bcce0b465076ee9586d5f46d3930d95"
+hash = "3d1fc8b3f5a24769b7ed3c922b7d1c02272d254c35b4e33b0784b73920498fe0"
 
 [[files]]
 file = "kubejs/server_scripts/structure_bases.js"
@@ -743,7 +743,7 @@ hash = "6666cee652fa0e0cb71462dad51830ed0835676f8d13d0a9aaf6e91602aaffe7"
 
 [[files]]
 file = "kubejs/server_scripts/summoner_mage.js"
-hash = "6b15755bc0f1309207133dd731e94f7c28a2d0dc2c6a86072f0ab2c94ad15557"
+hash = "5368ce5aa977add5bd7743c2dea6696442fec69a62f6161eb35fbdd971cecb1d"
 
 [[files]]
 file = "kubejs/startup_scripts/armor_materials.js"

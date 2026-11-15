@@ -21,8 +21,16 @@ const FISHMAN_HERO_SCROLL_SPELLS = [
   ['cataclysm_spellbooks:abyss_fireball', 1],
 ]
 
+// どのボスの報酬にも入っていなかった呪文から、深淵の呪文（#98。2026-11-15、利用者と決定）。
+// 上の一覧の2〜3枚とは別に、ここから1枚を落とす（混ぜると、作中の呪文が出にくくなるため）。
+const FISHMAN_HERO_EXTRA_SCROLL_SPELLS = [
+  ['cataclysm_spellbooks:conjure_clawdian', 1], ['cataclysm_spellbooks:conjure_coral_golem', 1],
+  ['cataclysm_spellbooks:conjure_coralssus', 1], ['irons_spellbooks:abyssal_shroud', 1],
+]
+
 EntityEvents.death('cataclysm:the_leviathan', event => {
   // 封印石は、もとのルートテーブルを書き換えずに足すため、ここで落とす。
   event.entity.block.popItem(Item.of('endrem:guardian_eye'))
   global.kenmaBossLoot.dropScrolls(event.entity, FISHMAN_HERO_SCROLL_SPELLS, 2, 3)
+  global.kenmaBossLoot.dropScrolls(event.entity, FISHMAN_HERO_EXTRA_SCROLL_SPELLS, 1, 1)
 })
