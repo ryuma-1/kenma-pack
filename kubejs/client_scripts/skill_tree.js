@@ -6,6 +6,7 @@
 // もとの名前は英語の文字そのもの（「+5% Mana Regen」など）なので、日本語にならない。
 // そこで、kubejs/data/irons_spells_skill_tree/puffish_skills/categories/magic/ の definitions.json と
 // category.json で、もとのファイルを上書きして、名前を訳のキーにした（ほかの値はもとのまま）。
+// connections.json も上書きして、中心の隣の4つの「どちらか一方しか取れない」をなくした（docs/skill-tree.md）。
 //   スキルの名前 = Iron's Spells の能力値の名前（attribute.irons_spellbooks.*）＋ 値。例:「マナ再生 +5%」
 //   カテゴリの名前 = 下の skill_category.kenma.magic
 // もとのファイルは unofficial_ironspells_v2_1.19.2_1.20.1_1.21.1.jar（パブリックドメイン）。

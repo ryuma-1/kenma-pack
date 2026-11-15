@@ -567,7 +567,7 @@ hash = "5577a0b9371f2a7b149b559af9671f9b3f528db1e08eea7f51b9aeccc5cd4f61"
 
 [[files]]
 file = "kubejs/client_scripts/skill_tree.js"
-hash = "e5c6bbf5b978d7fb3de4ecaa4d701612c1b391c8045faf705800ba6e1d18de41"
+hash = "40f3e70f5ccfd87044b47b92dc70acc7395d594e5c935ac5b7182feb7f290e56"
 
 [[files]]
 file = "kubejs/client_scripts/spell_info.js"
@@ -588,6 +588,10 @@ hash = "d3809e6a95c730262f8f7b92616d97d357eefdbbe010811b6030f356c55baa5f"
 [[files]]
 file = "kubejs/data/irons_spells_skill_tree/puffish_skills/categories/magic/category.json"
 hash = "3a85925fbff67186f7465a5dbc643a70ce0ae3815a1000c2db78188d2a66a9bd"
+
+[[files]]
+file = "kubejs/data/irons_spells_skill_tree/puffish_skills/categories/magic/connections.json"
+hash = "7e3576366db94ab5d63706c34d9a8d6d394ca4897ca2d4ccc3d3213c9cde45d0"
 
 [[files]]
 file = "kubejs/data/irons_spells_skill_tree/puffish_skills/categories/magic/definitions.json"
