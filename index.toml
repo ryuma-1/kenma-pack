@@ -830,6 +830,11 @@ hash = "d7f9a6be21f3e841d5f865a8fbc3ea33e7c4921aac649b23a42dfd72795e5a59"
 metafile = true
 
 [[files]]
+file = "mods/attributefix.pw.toml"
+hash = "e5e31b946bfff4b662afb5f4b01038cf2a724ad254caf8dd2ff6a26272be3041"
+metafile = true
+
+[[files]]
 file = "mods/attributizer.pw.toml"
 hash = "eab362514ecccc38079900ecea3f617e1086fe8441f5690c0d494bce75ba43b8"
 metafile = true
