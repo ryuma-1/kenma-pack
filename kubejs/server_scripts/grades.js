@@ -145,7 +145,7 @@ global.kenmaGrades = {
       for (i = 0; i < list.size(); i++) {
         e = list.get(i)
         if (!e.isLiving() || this.gradeOf(e) == null) continue
-        d = e.distanceTo(player)
+        d = player.getDistance(e.getX(), e.getY(), e.getZ()) // distanceTo は KubeJS から呼べなかった（danger.js）
         if (d < 64 && d < best) { best = d; target = e }
       }
     }

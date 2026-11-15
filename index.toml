@@ -17,6 +17,10 @@ file = "config/irons_spellbooks-client.toml"
 hash = "6cd87ffb6522c5930854ed7387bb2c433cf114c9cc607129033f5fb252ad3864"
 
 [[files]]
+file = "config/l2_configs/l2hostility-common.toml"
+hash = "3dca7ef47f3b5d97584e03869bff99d9b3a7e0cd5b4fff0a44d3080ce9681d4f"
+
+[[files]]
 file = "config/openloader/data/cavernous.pw.toml"
 hash = "8970f192a493276321bb3129022819f4fc85f63f2bab5abc87069a657c14bd09"
 metafile = true
@@ -575,7 +579,7 @@ hash = "d3809e6a95c730262f8f7b92616d97d357eefdbbe010811b6030f356c55baa5f"
 
 [[files]]
 file = "kubejs/config/grades.json"
-hash = "2dedb4e832ac835aedc71a84957eea255d23d4012a0c73d094ed4b6aacdff2dc"
+hash = "d58efec2f626d19ed57f858f4bedd027e483791bb87e2220dc1290da6003f9fb"
 
 [[files]]
 file = "kubejs/data/irons_spells_skill_tree/puffish_skills/categories/magic/category.json"
@@ -658,6 +662,10 @@ file = "kubejs/server_scripts/crystal.js"
 hash = "227431187bd47b47476396a0aab956129d51c3ae358049c1f5b11c37b6b86942"
 
 [[files]]
+file = "kubejs/server_scripts/danger.js"
+hash = "ba65cf167701962d73387b764dce080c761df4b2cf1ba21e0f6ebcaed50c5dfe"
+
+[[files]]
 file = "kubejs/server_scripts/dragon_maiden.js"
 hash = "78b054ddea0aed252aac7653607e7c66a24dc3b340d348843ace9ba6c2bb3082"
 
@@ -683,7 +691,7 @@ hash = "23122f000c732edb9709ca3d24bee75c5b66ec062f94dec011b33de2b0181358"
 
 [[files]]
 file = "kubejs/server_scripts/grades.js"
-hash = "bf35a85f8fc18f482d5650c2c1ddac12c251ec186218792bec8287dd23d00b8a"
+hash = "9f1e84db0bff1a866b67638c980d45b9f3cf09c8111bb9af84a5a2b5cc39295a"
 
 [[files]]
 file = "kubejs/server_scripts/hero_armor.js"
