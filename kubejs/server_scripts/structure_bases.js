@@ -49,6 +49,10 @@ const KENMA_STRUCTURE_BASES = [
   //   作中の「禁足地」。利用者がゲームの中で選んだ。2026-11-13、利用者と決定）
   { structure: 'cavernous:the_citadel', boss: 'cataclysm:maledictus', data: 'kenmaImperialGuardBases',
     sound: 'minecraft:entity.ravager.roar', particle: 'minecraft:soul_fire_flame', name: 'entity.kenma.imperial_guard' },
+  // 退魔の剣士（#8）: Cataclysm の Ruined Citadel（エンドの外側の島。作中の「果ての荒野」。2026-11-14、利用者と決定）
+  //   ボスは Iron's Spells の The Dead King。同じ Citadel の Altar of Void から呼び出す Ender Guardian は、退魔の巨像。
+  { structure: 'cataclysm:ruined_citadel', boss: 'irons_spellbooks:dead_king', data: 'kenmaExorcismSwordsmanBases',
+    sound: 'minecraft:entity.wither.spawn', particle: 'minecraft:reverse_portal', name: 'entity.kenma.exorcism_swordsman' },
 ]
 
 const KENMA_HEIR_TAG = 'kenma_heir'

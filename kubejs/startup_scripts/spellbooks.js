@@ -19,8 +19,9 @@ const SpellbooksResourceLocation = Java.loadClass('net.minecraft.resources.Resou
 
 // 作品の系統の「魔法の力」。Iron's Spells の系統の力と同じ作り（もとの値 1、0〜10）。
 //   淀み: 淀みの系統（startup_scripts/stagnation_magic.js）の威力に使う。
-//   退魔の法: 系統と呪文はまだない。退魔の魔導書の能力のために、力だけ先に作っておく。
-const KENMA_SPELL_POWERS = ['kenma:stagnation_spell_power', 'kenma:exorcism_spell_power']
+//   退魔の法は、Iron's Spells のエンダー系の表示名を変えたもの（startup_scripts/exorcism.js）なので、
+//   力はエンダーの呪文の力（irons_spellbooks:ender_spell_power）を使う。自作の退魔の法の力は外した（2026-11-14、利用者と決定）。
+const KENMA_SPELL_POWERS = ['kenma:stagnation_spell_power']
 
 StartupEvents.registry('attribute', event => {
   KENMA_SPELL_POWERS.forEach(id => {
@@ -69,7 +70,7 @@ const KENMA_SPELLBOOKS = [
   },
   {
     id: 'exorcism_spell_book', slots: 15, attributes: [
-      ['kenma:exorcism_spell_power', 0.5, 'MULTIPLY_BASE'],
+      ['irons_spellbooks:ender_spell_power', 0.5, 'MULTIPLY_BASE'], // 退魔の法
       ['irons_spellbooks:max_mana', 800, 'ADDITION'],
       ['irons_spellbooks:spell_power', 0.2, 'MULTIPLY_BASE'],
       ['irons_spellbooks:mana_regen', 2.0, 'MULTIPLY_BASE'],

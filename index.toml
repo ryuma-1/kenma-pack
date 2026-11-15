@@ -526,6 +526,10 @@ file = "kubejs/client_scripts/earth_mage.js"
 hash = "29a52a3309d5af0e5d93ba9cab7ef742f776f5e62682c3a4fcfbed97f271f329"
 
 [[files]]
+file = "kubejs/client_scripts/exorcism.js"
+hash = "87e15b65842c8eec9df96faaf9f2da60f71362cc09a88dbb14537c62f9b2509f"
+
+[[files]]
 file = "kubejs/client_scripts/fishman_hero.js"
 hash = "f43e7039e2daa52f55960c595dbd516a0fd45b35acfee17e35eba3936ae83042"
 
@@ -567,7 +571,7 @@ hash = "fac6d9a5511f796b141656aa2ee1b1158365c0401ec78355a81948462528f179"
 
 [[files]]
 file = "kubejs/client_scripts/spellbooks.js"
-hash = "0f74bb73dff51e6515904b12e6bc6051080ac9e7363a7ec2b7ca9400430ab8fa"
+hash = "20585279760b589322fe6f3a37ef2bf045200a0985ae1ff6816679591e465774"
 
 [[files]]
 file = "kubejs/client_scripts/stagnation_magic.js"
@@ -635,7 +639,7 @@ hash = "4af6f342aec9f25e23b648de67f8fa8bd05fbf5971afd1a543c540953f75b819"
 
 [[files]]
 file = "kubejs/server_scripts/boss_souls.js"
-hash = "e2d4070e7d4420f9888106311abb9bee6d26ff9ea8ce05d0feaeeeace4da5a15"
+hash = "cd60af2fea13f8465585bf516613e97dec47a1cf00a044b53f00b13410b61c6c"
 
 [[files]]
 file = "kubejs/server_scripts/crystal.js"
@@ -652,6 +656,10 @@ hash = "8f5d9cdf2df7e8e743fecb22b1830ac4d700e9a3ed6b240e990dcb3bc88a073d"
 [[files]]
 file = "kubejs/server_scripts/earth_mage.js"
 hash = "17a5a95ccd2e864c271d8c915ac537c9e6ce5cb2a94eff4a6404ae233db9eedf"
+
+[[files]]
+file = "kubejs/server_scripts/endgame.js"
+hash = "cc6b43124e41163b6ce2df065627267483387573b0eeff52822e7d2d6458b4cc"
 
 [[files]]
 file = "kubejs/server_scripts/fishman_hero.js"
@@ -707,7 +715,7 @@ hash = "a04e9431634c2af9e239595be2fa9221e9d44956a15a8c0da26e971f10fbd649"
 
 [[files]]
 file = "kubejs/server_scripts/structure_bases.js"
-hash = "678784f84ca9e6387d05cc0b6096d21c7917d7132e2966a7771d48d85f136bfd"
+hash = "6666cee652fa0e0cb71462dad51830ed0835676f8d13d0a9aaf6e91602aaffe7"
 
 [[files]]
 file = "kubejs/server_scripts/summoner_mage.js"
@@ -742,6 +750,10 @@ file = "kubejs/startup_scripts/earth_magic.js"
 hash = "255c045087f145b546accc750a7898382f4b159a5d0968e9e81eb8b0576aef65"
 
 [[files]]
+file = "kubejs/startup_scripts/exorcism.js"
+hash = "77e50b7817e7c7593b0ea58c3f5477240b43e9b3ab9a68bb342057e443383f41"
+
+[[files]]
 file = "kubejs/startup_scripts/holy_magic.js"
 hash = "a0c19942d10951783fc777d9f274b6b409ec61d08c1c6a5cc3f6b957504893af"
 
@@ -763,7 +775,7 @@ hash = "67cc76b37f194fa7790bb51c7b9295036e4b130d7a5c5a37bb5900a4f08c4404"
 
 [[files]]
 file = "kubejs/startup_scripts/spellbooks.js"
-hash = "86fe0931abc3928c96aad0264ad52db40f47585cf5270f4c23011847d99797e6"
+hash = "c468631c9dd7c7f6cebb5773f86cec8670927224bf615cefa7257304a141435c"
 
 [[files]]
 file = "kubejs/startup_scripts/stagnation_magic.js"

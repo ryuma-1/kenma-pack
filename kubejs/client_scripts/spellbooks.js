@@ -17,10 +17,9 @@ const KENMA_SPELLBOOK_NAMES = {
   exorcism_spell_book: ['退魔の魔導書', 'Exorcism Spell Book'],
 }
 
-// 能力の名前。Iron's Spells の日本語（「聖の呪文の力」など）に合わせる。
+// 能力の名前。Iron's Spells の日本語（「聖の呪文の力」など）に合わせる。退魔の法の力は client_scripts/exorcism.js。
 const KENMA_ATTRIBUTE_NAMES = {
   stagnation_spell_power: ['淀みの呪文の力', 'Stagnation Spell Power'],
-  exorcism_spell_power: ['退魔の法の力', 'Exorcism Spell Power'],
 }
 
 ClientEvents.lang('ja_jp', event => {
