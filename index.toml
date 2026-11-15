@@ -18,18 +18,6 @@ hash = "8970f192a493276321bb3129022819f4fc85f63f2bab5abc87069a657c14bd09"
 metafile = true
 
 [[files]]
-file = "config/openloader/data/kenma/data/cavernous/worldgen/placed_feature/biomes/ice/icy/ore_diamond_extra.json"
-hash = "64c60a08d4a06e0d6c08b710c6ad64270b2504aa9b8b5a531a2fc1d43677b7cf"
-
-[[files]]
-file = "config/openloader/data/kenma/data/cavernous/worldgen/placed_feature/biomes/thermal/volcanic/ore_diamond_extra.json"
-hash = "64c60a08d4a06e0d6c08b710c6ad64270b2504aa9b8b5a531a2fc1d43677b7cf"
-
-[[files]]
-file = "config/openloader/data/kenma/data/cavernous/worldgen/placed_feature/generic/ores/diamond.json"
-hash = "64c60a08d4a06e0d6c08b710c6ad64270b2504aa9b8b5a531a2fc1d43677b7cf"
-
-[[files]]
 file = "config/openloader/data/kenma/data/deepwaters/forge/biome_modifier/fopal_ore_placement_stone_biome_modifier.json"
 hash = "80a5cec4b049df2e1fe4ebe2ce5a61b19cc70894a303558bdedee182b59335c0"
 
@@ -148,18 +136,6 @@ hash = "18b022a1e2bf97474eb681ee5c59598abac1f6da7af4f4096796d94384a6f558"
 [[files]]
 file = "config/openloader/data/kenma/data/kenma/worldgen/placed_feature/holy_iron_ore_large.json"
 hash = "9d6768f6c946a6dae120b022838c809c88050f9cfcec26535b6f9ea40ad80285"
-
-[[files]]
-file = "config/openloader/data/kenma/data/minecraft/worldgen/placed_feature/ore_diamond.json"
-hash = "64c60a08d4a06e0d6c08b710c6ad64270b2504aa9b8b5a531a2fc1d43677b7cf"
-
-[[files]]
-file = "config/openloader/data/kenma/data/minecraft/worldgen/placed_feature/ore_diamond_buried.json"
-hash = "b196c4c4072f36465701dd2ce5792a4eebd14b885c01d874e856fc2090d98561"
-
-[[files]]
-file = "config/openloader/data/kenma/data/minecraft/worldgen/placed_feature/ore_diamond_large.json"
-hash = "f4ebd80c4ee7854dc1d13cc65ffe04565aca079bcb35ebc53b58e37f75626f32"
 
 [[files]]
 file = "config/openloader/data/kenma/pack.mcmeta"
