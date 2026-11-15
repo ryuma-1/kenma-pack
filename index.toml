@@ -150,6 +150,10 @@ file = "config/openloader/data/kenma/pack.mcmeta"
 hash = "7c98706063559881f867c5e9171d1d994dd250a4eda253a65bc6a9ee9f74623d"
 
 [[files]]
+file = "defaultconfigs/irons_rpg_tweaks-server.toml"
+hash = "29e0200a21a6050a0642c528e51216e49e73caaefd5ec049e7ff8e4ea6fad771"
+
+[[files]]
 file = "defaultconfigs/irons_spellbooks-server.toml"
 hash = "73009552564ba7ca9e5c2e9e19318f5e6cdfb0ab6a7babb9f9675053f36d65ee"
 

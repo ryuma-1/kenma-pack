@@ -1,0 +1,9 @@
+# Iron's RPG Tweaks のサーバー設定の既定値（新しいワールドを作るときに serverconfig へ写される）。
+# ここに書いた項目だけ既定から変える。書いていない項目は Iron's RPG Tweaks の既定値になる。
+# 既にあるワールドには効かないので、そのワールドの serverconfig/irons_rpg_tweaks-server.toml を直接直す。
+
+[Hunger-Module]
+
+	# ポーションのスタック数は Dave's Potioneering（16、投げるものは 4）に任せる（2026-11-15、利用者と決定。#4）。
+	# 既定の 4 のままだと、2つの MOD の設定がぶつかる（ゲームでは 16 になっていた）。0 で、この MOD の変更を止める。
+	potionStackSize = 0
