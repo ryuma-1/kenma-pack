@@ -1,8 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/autohud.json5"
+hash = "368902de43083aff55440595159e846cc92f7484ccbdbebd0632d4ebe2f2348b"
+
+[[files]]
 file = "config/endrem.toml"
 hash = "3aa57ad35c356701c0dce40fcc975959ffdf94bdbafc800b8b1e76bce7ec3bb0"
+
+[[files]]
+file = "config/irons_spellbooks-client.toml"
+hash = "6cd87ffb6522c5930854ed7387bb2c433cf114c9cc607129033f5fb252ad3864"
 
 [[files]]
 file = "config/openloader/data/cavernous.pw.toml"
