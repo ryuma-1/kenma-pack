@@ -1,0 +1,13 @@
+{
+  "unlocked_by_default": true,
+  "title": {
+    "translate": "skill_category.kenma.magic"
+  },
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "irons_spellbooks:copper_spell_book"
+    }
+  },
+  "background": "unofficial_tree:textures/gui/advancements/backgrounds/magic.png"
+}

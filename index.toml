@@ -566,6 +566,10 @@ file = "kubejs/client_scripts/seal_stones.js"
 hash = "5577a0b9371f2a7b149b559af9671f9b3f528db1e08eea7f51b9aeccc5cd4f61"
 
 [[files]]
+file = "kubejs/client_scripts/skill_tree.js"
+hash = "e5c6bbf5b978d7fb3de4ecaa4d701612c1b391c8045faf705800ba6e1d18de41"
+
+[[files]]
 file = "kubejs/client_scripts/spell_info.js"
 hash = "fac6d9a5511f796b141656aa2ee1b1158365c0401ec78355a81948462528f179"
 
@@ -580,6 +584,14 @@ hash = "4b00ce548034bb9d4c08f1a31a2ed53a2bad4d2b97d86d28af5de4a403cd8e22"
 [[files]]
 file = "kubejs/client_scripts/summoner_mage.js"
 hash = "d3809e6a95c730262f8f7b92616d97d357eefdbbe010811b6030f356c55baa5f"
+
+[[files]]
+file = "kubejs/data/irons_spells_skill_tree/puffish_skills/categories/magic/category.json"
+hash = "3a85925fbff67186f7465a5dbc643a70ce0ae3815a1000c2db78188d2a66a9bd"
+
+[[files]]
+file = "kubejs/data/irons_spells_skill_tree/puffish_skills/categories/magic/definitions.json"
+hash = "e88263858d9f676230657c24321e452d346b0af14a291e0bba3cd316b873fb88"
 
 [[files]]
 file = "kubejs/data/kenma/damage_type/primal_curse.json"
