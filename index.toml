@@ -18,7 +18,7 @@ hash = "6cd87ffb6522c5930854ed7387bb2c433cf114c9cc607129033f5fb252ad3864"
 
 [[files]]
 file = "config/l2_configs/l2hostility-common.toml"
-hash = "3dca7ef47f3b5d97584e03869bff99d9b3a7e0cd5b4fff0a44d3080ce9681d4f"
+hash = "324be134921d88e0dbfdef1b0846d519d6f4ce3133c81a9cb281ef689f53ebdc"
 
 [[files]]
 file = "config/openloader/data/cavernous.pw.toml"
@@ -620,6 +620,26 @@ hash = "6bc621204787b8580f27ad681679e4c1b4820327b9bfd29c6b3320e580720e72"
 [[files]]
 file = "kubejs/data/l2hostility/l2hostility_config/entity/bosses.json"
 hash = "88f3a5fa4aaab40ff6f555420da8db98bf749537e12933ae4f124282239d0445"
+
+[[files]]
+file = "kubejs/data/l2hostility/tags/entity_types/grenade_blacklist.json"
+hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
+
+[[files]]
+file = "kubejs/data/l2hostility/tags/entity_types/invisible_blacklist.json"
+hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
+
+[[files]]
+file = "kubejs/data/l2hostility/tags/entity_types/shulker_blacklist.json"
+hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
+
+[[files]]
+file = "kubejs/data/l2hostility/tags/entity_types/teleport_blacklist.json"
+hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
+
+[[files]]
+file = "kubejs/data/l2hostility/tags/entity_types/undying_blacklist.json"
+hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
 
 [[files]]
 file = "kubejs/data/minecraft/tags/damage_type/bypasses_armor.json"
