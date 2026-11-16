@@ -9,6 +9,10 @@ file = "config/endrem.toml"
 hash = "3aa57ad35c356701c0dce40fcc975959ffdf94bdbafc800b8b1e76bce7ec3bb0"
 
 [[files]]
+file = "config/enhancedai-common.toml"
+hash = "e02a64ef436f135eec663fddf99c31c869f167879c81907877c7dd9383b96759"
+
+[[files]]
 file = "config/harderbranchmining-common.toml"
 hash = "3e5372c02773cecd40a45e38bbc88026f4196cb75c3750225328c9a493703f43"
 
