@@ -590,6 +590,10 @@ file = "kubejs/client_scripts/summoner_mage.js"
 hash = "d3809e6a95c730262f8f7b92616d97d357eefdbbe010811b6030f356c55baa5f"
 
 [[files]]
+file = "kubejs/client_scripts/true_totem.js"
+hash = "a303c89a1da9235b676460c8acb8d9171035def6c74886aada63bc0dafd2ccc5"
+
+[[files]]
 file = "kubejs/config/grades.json"
 hash = "b3f908e8c1b194092288c4b429583101c1c8ed7f94392afc2f6e03990029993d"
 
@@ -759,7 +763,7 @@ hash = "eae095d243fe62eb4ead5e44a92ca964ad0b02a4341937007b04a6b41159ef51"
 
 [[files]]
 file = "kubejs/server_scripts/sand_mage.js"
-hash = "819ab4f548ae62d08e578e815e4904a258546fde025d69e3079f4212afe6bf8e"
+hash = "d0fc6fe9efd03538ae226c149489a0a04cc0e6f385a8d028bccdeef37f6d8df0"
 
 [[files]]
 file = "kubejs/server_scripts/seal_stones.js"
@@ -784,6 +788,10 @@ hash = "5368ce5aa977add5bd7743c2dea6696442fec69a62f6161eb35fbdd971cecb1d"
 [[files]]
 file = "kubejs/server_scripts/super_mobs.js"
 hash = "b03028048376f3c99ca311204a1fcb687012c8381e07cd817db6d971a9feb5a2"
+
+[[files]]
+file = "kubejs/server_scripts/true_totem.js"
+hash = "457f7d1caae63d618972806edc5dc1190aa9305ccde3049eb2ec4fb14649b1ab"
 
 [[files]]
 file = "kubejs/startup_scripts/armor_materials.js"
@@ -852,6 +860,10 @@ hash = "1e2d65b26c025e5cda6ea10af742741f98dcf9e4db8bad232bf5d719225cdb5b"
 [[files]]
 file = "kubejs/startup_scripts/super_mobs.js"
 hash = "9d0cb2c56901de2af3b3ae5a7313743cdd22221632427acc490aa9c849f6033e"
+
+[[files]]
+file = "kubejs/startup_scripts/true_totem.js"
+hash = "4d87cb86e6b604acbcca1ac10b8a6b0aff20f06aa34a8b545e5b57128752d880"
 
 [[files]]
 file = "mods/alekiships.pw.toml"

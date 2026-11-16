@@ -33,4 +33,6 @@ EntityEvents.death('cataclysm:ancient_remnant', event => {
   event.entity.block.popItem(Item.of('endrem:old_eye'))
   global.kenmaBossLoot.dropScrolls(event.entity, SAND_MAGE_SCROLL_SPELLS, 2, 3)
   global.kenmaBossLoot.dropScrolls(event.entity, SAND_MAGE_EXTRA_SCROLL_SPELLS, 1, 1)
+  // 本物のトーテム（#128。2026-11-16、利用者と決定）。倒すたびに1個。仕組みは server_scripts/true_totem.js。
+  event.entity.block.popItem(Item.of('kenma:true_totem'))
 })
