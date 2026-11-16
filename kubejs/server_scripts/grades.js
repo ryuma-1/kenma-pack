@@ -91,6 +91,19 @@ global.kenmaGrades = {
     return b.grade
   },
 
+  // 呪文の系統の弱点と耐性（#127。2026-11-16、利用者と決定）。grades.json の bosses の weakTo（弱点の系統）と
+  // resists（自分の系統）、倍率は spellWeakness（weak、resist）。呪文のダメージに掛ける倍率を返す（関係なければ 1）。
+  // heirOnly のボスは、継承者にだけ効く。呼ぶのは startup_scripts/spell_weakness.js（Forge のイベント）。
+  spellMultiplier(target, school) {
+    var b, s
+    if (this.config == null || this.config.spellWeakness == null || this.wantedGradeOf(target) == null) return 1
+    b = this.config.byEntity[String(target.type)]
+    s = this.config.spellWeakness
+    if (b.weakTo === school) return s.weak
+    if (b.resists === school) return s.resist
+    return 1
+  },
+
   // 等級の体力を当てる。ワールドに出たときと /reload のときに呼ぶ。
   apply(entity, server) {
     var wanted, current, id, grade, first, ratio, b
@@ -214,6 +227,9 @@ global.kenmaGrades = {
     player.tell(`  攻撃の倍率（等級）: ${grade == null ? 1 : grade.damage}`)
     player.tell(`  L2 Hostility のレベル: ${lv}（体力 +${(lv * hf * scale.h * 100).toFixed(0)}%、攻撃 +${(lv * df * scale.d * 100).toFixed(0)}%）`)
     player.tell(`  特性: ${this.traitText(target)}`)
+    if (this.wantedGradeOf(target) != null) {
+      player.tell(`  弱点の系統: ${this.config.byEntity[String(target.type)].weakTo || 'なし'}、耐性の系統: ${this.config.byEntity[String(target.type)].resists || 'なし'}`)
+    }
     try {
       player.tell(`  あなたの危険度（L2 Hostility のプレイヤーのレベル）: ${GradesPlayerDifficulty.HOLDER.get(player).getLevel().getLevel()}`)
     } catch (err) { /* 出せなくてもよい */ }

@@ -599,7 +599,7 @@ hash = "a303c89a1da9235b676460c8acb8d9171035def6c74886aada63bc0dafd2ccc5"
 
 [[files]]
 file = "kubejs/config/grades.json"
-hash = "b3f908e8c1b194092288c4b429583101c1c8ed7f94392afc2f6e03990029993d"
+hash = "6bc5808ce3de63a265501fd28e0316d74a3c4bcf1667a404f55e7cc8fbef8c95"
 
 [[files]]
 file = "kubejs/data/irons_spells_skill_tree/puffish_skills/categories/magic/category.json"
@@ -735,7 +735,7 @@ hash = "23122f000c732edb9709ca3d24bee75c5b66ec062f94dec011b33de2b0181358"
 
 [[files]]
 file = "kubejs/server_scripts/grades.js"
-hash = "afb9f58a4c1e2825383333b2c28f91508193977933bea96cb1e6634a8e6bd505"
+hash = "859b0aad7ef32dbddfdabb749a207e29c6ffde4714144e3e9d081b373b73cc3b"
 
 [[files]]
 file = "kubejs/server_scripts/hero_armor.js"
@@ -852,6 +852,10 @@ hash = "27eb6902210837e48dc16df97c1462661040bd47980d4e782ab3b2381404b259"
 [[files]]
 file = "kubejs/startup_scripts/spell_info.js"
 hash = "67cc76b37f194fa7790bb51c7b9295036e4b130d7a5c5a37bb5900a4f08c4404"
+
+[[files]]
+file = "kubejs/startup_scripts/spell_weakness.js"
+hash = "4b0e0134588ec978c718b7368001e0854d3bae3493ac814186f81ebe172da25f"
 
 [[files]]
 file = "kubejs/startup_scripts/spellbooks.js"
