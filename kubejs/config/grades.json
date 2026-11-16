@@ -13,7 +13,8 @@
     "perNormalKill": 0.03,
     "perNewDimension": 10,
     "bossKillRange": 64,
-    "syncSeconds": 5
+    "syncSeconds": 5,
+    "orbEvery": 5
   },
   "superMobs": {
     "minecraft:zombie": { "name": "スーパーゾンビ", "chance": 0.02, "health": 30.0, "damage": 2.0, "speed": 1.3, "knockbackResistance": 0.5 },

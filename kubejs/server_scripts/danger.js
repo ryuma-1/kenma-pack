@@ -16,6 +16,7 @@
 
 const DANGER_KEY = 'kenma_danger'
 const DANGER_DIMS_KEY = 'kenma_danger_dims'
+const DANGER_ORBS_KEY = 'kenma_orbs_given'
 const DANGER_MAX = 2000 // L2 Hostility の maxPlayerLevel
 const DangerPlayerDifficulty = Java.loadClass('dev.xkmc.l2hostility.content.capability.player.PlayerDifficulty')
 const DangerFloatArgument = Java.loadClass('com.mojang.brigadier.arguments.FloatArgumentType')
@@ -63,7 +64,27 @@ global.kenmaDanger = {
 
   syncAll(server) {
     var level = Math.floor(this.get(server))
-    server.players.forEach(p => this.syncPlayer(p, level))
+    server.players.forEach(p => {
+      this.syncPlayer(p, level)
+      this.giveOrbs(p, server)
+    })
+  },
+
+  // Hostility Orb を配る（#124。2026-11-16、利用者と決定）。危険度が danger.orbEvery 上がるごとに、1人に1個。
+  // L2 Hostility はもともとプレイヤーのレベルが上がるたびに配るが、パックではその上がり方を止めているので、ここで配る。
+  // 配った回数はプレイヤーごとに覚える（persistentData の kenma_orbs_given）。いなかった間の分は、入ったときにまとめて渡す。
+  // 危険度を下げても（/kenma_danger set）、渡したオーブは減らさない。
+  giveOrbs(player, server) {
+    var s = this.settings(), want, given, n
+    if (s == null || !(s.orbEvery > 0)) return
+    want = Math.floor(this.get(server) / s.orbEvery)
+    given = player.persistentData.getInt(DANGER_ORBS_KEY)
+    if (want <= given) return
+    n = want - given
+    player.persistentData.putInt(DANGER_ORBS_KEY, want)
+    player.give(Item.of('l2hostility:hostility_orb', n))
+    player.tell(Text.translate('message.kenma.hostility_orb', String(n)).yellow())
+    console.info(`danger: ${player.username} に Hostility Orb を ${n} 個渡した（危険度 ${this.get(server).toFixed(2)}）`)
   },
 
   // 初めて入った次元なら、危険度を足す。
@@ -112,6 +133,7 @@ PlayerEvents.loggedIn(event => {
   try {
     global.kenmaDanger.syncPlayer(event.player, Math.floor(global.kenmaDanger.get(event.server)))
     global.kenmaDanger.checkDimension(event.server, event.player)
+    global.kenmaDanger.giveOrbs(event.player, event.server)
   } catch (e) {
     console.error(`danger: ${e}`)
   }

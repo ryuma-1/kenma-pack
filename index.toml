@@ -542,6 +542,10 @@ file = "kubejs/client_scripts/holy_iron.js"
 hash = "63ae6fdd1748809b6a50e2e26a8b532426969ea61fdf6a37bbadb521f17755fe"
 
 [[files]]
+file = "kubejs/client_scripts/hostility_orb.js"
+hash = "1b35c57ad0b5e0516bfad9d7fc0323d46b5347b635cc58aa25471d84b3a221cd"
+
+[[files]]
 file = "kubejs/client_scripts/ice_mage.js"
 hash = "4c57cb3ae36d45a35c22c4d8ef12176aa363150c383325efa85bd7067e967fcd"
 
@@ -587,7 +591,7 @@ hash = "d3809e6a95c730262f8f7b92616d97d357eefdbbe010811b6030f356c55baa5f"
 
 [[files]]
 file = "kubejs/config/grades.json"
-hash = "e632ff4bcef634435faa041d4da8c161c4968028dee317de9920ea6a4b24a0f3"
+hash = "b3f908e8c1b194092288c4b429583101c1c8ed7f94392afc2f6e03990029993d"
 
 [[files]]
 file = "kubejs/data/irons_spells_skill_tree/puffish_skills/categories/magic/category.json"
@@ -691,7 +695,7 @@ hash = "227431187bd47b47476396a0aab956129d51c3ae358049c1f5b11c37b6b86942"
 
 [[files]]
 file = "kubejs/server_scripts/danger.js"
-hash = "ba65cf167701962d73387b764dce080c761df4b2cf1ba21e0f6ebcaed50c5dfe"
+hash = "482f6f16df76cfccb58a06422ef5f2a1c2d43b4737b6e0d9c6eab3b008dc486d"
 
 [[files]]
 file = "kubejs/server_scripts/dragon_maiden.js"
