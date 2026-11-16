@@ -44,6 +44,8 @@ const GradesMobTraitCap = Java.loadClass('dev.xkmc.l2hostility.content.capabilit
 const GradesPlayerDifficulty = Java.loadClass('dev.xkmc.l2hostility.content.capability.player.PlayerDifficulty')
 const GradesLHConfig = Java.loadClass('dev.xkmc.l2hostility.init.data.LHConfig')
 const GradesAttributes = Java.loadClass('net.minecraft.world.entity.ai.attributes.Attributes')
+const GradesTraits = Java.loadClass('dev.xkmc.l2hostility.init.registrate.LHTraits')
+const GradesResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation')
 
 // grades.json を読み、間違いがあればログに出す。読めなければ null（そのときは何もしない）。
 function gradesLoad() {
@@ -91,7 +93,7 @@ global.kenmaGrades = {
 
   // 等級の体力を当てる。ワールドに出たときと /reload のときに呼ぶ。
   apply(entity, server) {
-    var wanted, current, id, grade, first, ratio
+    var wanted, current, id, grade, first, ratio, b
     if (!entity.isLiving() || !entity.isAlive()) return
     wanted = this.wantedGradeOf(entity)
     current = this.gradeOf(entity)
@@ -109,6 +111,8 @@ global.kenmaGrades = {
     server.scheduleInTicks(1, () => {
       if (entity.isAlive()) entity.setHealth(entity.getMaxHealth() * ratio)
     })
+    b = this.config.byEntity[String(entity.type)]
+    if (b.traits) server.scheduleInTicks(1, () => this.applyTraits(entity, server, b.traits, 0))
   },
 
   // ボスが与えるダメージに掛ける倍率。startup_scripts/grades.js から呼ぶ。
@@ -119,18 +123,62 @@ global.kenmaGrades = {
 
   // L2 Hostility の設定（datapack）として、grades.json のボスの設定を作る。
   // 最低レベルなし、足し算なし。危険度（L2 Hostility のレベル）の効き目を bossHealthScale・bossDamageScale 倍にする。
+  // traits を書いたボス（#129）は、ランダムな特性を付けない（presetTraitsOnly、traits は空）。決まった特性は applyTraits で付ける。
   l2Config() {
-    var list = [], entities = Object.keys(this.config.byEntity)
-    if (entities.length === 0) return { list: [] }
-    list.push({
+    var list = [], byEntity = this.config.byEntity, random = [], fixed = []
+    Object.keys(byEntity).forEach(e => (byEntity[e].traits ? fixed : random).push(e))
+    var entry = (entities, presetOnly) => ({
       entities: entities,
       difficulty: { apply_chance: 1.0, base: 0, min: 0, scale: 0.0, suppression: 0.0, trait_chance: 1.0, variation: 0.0 },
       healthScale: this.config.danger.bossHealthScale,
       attackScale: this.config.danger.bossDamageScale,
       blacklist: [], items: [], traits: [], specialConditions: [],
-      maxLevel: 0, maxTraitCount: -1, minSpawnLevel: 0, presetTraitsOnly: false,
+      maxLevel: 0, maxTraitCount: -1, minSpawnLevel: 0, presetTraitsOnly: presetOnly,
     })
+    if (random.length > 0) list.push(entry(random, false))
+    if (fixed.length > 0) list.push(entry(fixed, true))
     return { list: list }
+  },
+
+  // grades.json の traits（特性の ID: ランク）を、そのボスに決まった特性として付ける（#129。2026-11-16、利用者と決定）。
+  // L2 Hostility の決まった特性（datapack の traits）は、モブのレベルが特性の出始めるレベルより低いと付かないので、
+  // L2 Hostility が初期化を終えたあとに MobTraitCap.setTrait で直接付ける。書いていない特性は外す（ランク 0）。
+  // setTrait は予約で、L2 Hostility の次の処理で付いたり外れたりする。
+  applyTraits(entity, server, wanted, tries) {
+    var cap, id, trait, have
+    if (!entity.isAlive()) return
+    try {
+      if (!GradesMobTraitCap.HOLDER.isProper(entity)) return
+      cap = GradesMobTraitCap.HOLDER.get(entity)
+      if (!cap.isInitialized()) {
+        if (tries < 40) server.scheduleInTicks(5, () => this.applyTraits(entity, server, wanted, tries + 1))
+        else console.error(`grades: ${entity.type} の L2 Hostility が初期化されないので、特性を付けられない`)
+        return
+      }
+      have = {}
+      cap.traits.keySet().forEach(t => { have[String(GradesTraits.TRAITS.get().getKey(t))] = cap.getTraitLevel(t) })
+      for (id in have) if (!(id in wanted)) cap.setTrait(GradesTraits.TRAITS.get().getValue(new GradesResourceLocation(id)), 0)
+      for (id in wanted) {
+        trait = GradesTraits.TRAITS.get().getValue(new GradesResourceLocation(id))
+        if (trait == null) { console.error(`grades: 特性 ${id} がない`); continue }
+        if (have[id] !== wanted[id]) cap.setTrait(trait, wanted[id])
+      }
+    } catch (e) {
+      console.error(`grades: ${entity.type} に特性を付けられない: ${e}`)
+    }
+  },
+
+  // そのモブに付いている特性（ID とランク）。
+  traitText(entity) {
+    var cap, list = []
+    try {
+      if (!GradesMobTraitCap.HOLDER.isProper(entity)) return '（L2 Hostility の対象外）'
+      cap = GradesMobTraitCap.HOLDER.get(entity)
+      cap.traits.keySet().forEach(t => list.push(`${GradesTraits.TRAITS.get().getKey(t)} ${cap.getTraitLevel(t)}`))
+    } catch (e) {
+      return `（読めない: ${e}）`
+    }
+    return list.length === 0 ? 'なし' : list.join('、')
   },
 
   // /kenma_grade: 見ているモブ（いなければ 64 ブロック以内でいちばん近い等級付きのボス）の値を出す。
@@ -165,6 +213,7 @@ global.kenmaGrades = {
     player.tell(`  体力: ${target.getHealth().toFixed(1)} / ${target.getMaxHealth().toFixed(1)}（基本 ${target.getAttributeBaseValue(GradesAttributes.MAX_HEALTH)}）`)
     player.tell(`  攻撃の倍率（等級）: ${grade == null ? 1 : grade.damage}`)
     player.tell(`  L2 Hostility のレベル: ${lv}（体力 +${(lv * hf * scale.h * 100).toFixed(0)}%、攻撃 +${(lv * df * scale.d * 100).toFixed(0)}%）`)
+    player.tell(`  特性: ${this.traitText(target)}`)
     try {
       player.tell(`  あなたの危険度（L2 Hostility のプレイヤーのレベル）: ${GradesPlayerDifficulty.HOLDER.get(player).getLevel().getLevel()}`)
     } catch (err) { /* 出せなくてもよい */ }

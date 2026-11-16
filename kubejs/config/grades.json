@@ -37,10 +37,10 @@
     { "entity": "cataclysm:ancient_remnant", "grade": "first", "note": "砂塵の魔術師" },
     { "entity": "cataclysm:scylla", "grade": "first", "heirOnly": true, "note": "竜狩りの末裔" },
     { "entity": "cataclysm:maledictus", "grade": "first", "heirOnly": true, "note": "帝国近衛騎士" },
-    { "entity": "minecraft:ender_dragon", "grade": "zero", "note": "始祖の竜" },
+    { "entity": "minecraft:ender_dragon", "grade": "zero", "note": "始祖の竜", "traits": { "l2hostility:tank": 3, "l2hostility:regenerate": 2, "l2hostility:protection": 2 } },
     { "entity": "cataclysm:ender_guardian", "grade": "zero", "note": "退魔の巨像" },
     { "entity": "irons_spellbooks:dead_king", "grade": "zero", "heirOnly": true, "note": "退魔の剣士" },
-    { "entity": "callfromthedepth_:deepdarkestspawn", "grade": "demon_lord", "note": "最後の魔王（第1形態）" },
-    { "entity": "callfromthedepth_:deepdarkestspwansecondphase", "grade": "demon_lord", "note": "最後の魔王（第2形態）" }
+    { "entity": "callfromthedepth_:deepdarkestspawn", "grade": "demon_lord", "note": "最後の魔王（第1形態）", "traits": { "l2hostility:dementor": 1, "l2hostility:reflect": 2, "l2hostility:regenerate": 2 } },
+    { "entity": "callfromthedepth_:deepdarkestspwansecondphase", "grade": "demon_lord", "note": "最後の魔王（第2形態）", "traits": { "l2hostility:dementor": 1, "l2hostility:reflect": 2, "l2hostility:regenerate": 2, "l2hostility:killer_aura": 2 } }
   ]
 }

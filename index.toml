@@ -587,7 +587,7 @@ hash = "d3809e6a95c730262f8f7b92616d97d357eefdbbe010811b6030f356c55baa5f"
 
 [[files]]
 file = "kubejs/config/grades.json"
-hash = "d830999cd14a08a1b0c85e8bdc01a7de69d228197141b84f9cd2dac68e5fc12c"
+hash = "e632ff4bcef634435faa041d4da8c161c4968028dee317de9920ea6a4b24a0f3"
 
 [[files]]
 file = "kubejs/data/irons_spells_skill_tree/puffish_skills/categories/magic/category.json"
@@ -723,7 +723,7 @@ hash = "23122f000c732edb9709ca3d24bee75c5b66ec062f94dec011b33de2b0181358"
 
 [[files]]
 file = "kubejs/server_scripts/grades.js"
-hash = "9f1e84db0bff1a866b67638c980d45b9f3cf09c8111bb9af84a5a2b5cc39295a"
+hash = "afb9f58a4c1e2825383333b2c28f91508193977933bea96cb1e6634a8e6bd505"
 
 [[files]]
 file = "kubejs/server_scripts/hero_armor.js"
